@@ -1,5 +1,15 @@
+
+/********************Egzona**********************************/
 footer
 {
 	background-color: #1a1a1a;
 	color: white;
+}
+.input
+{
+	background-color: #232323;
+	color: #989898;
+	border:none;
+	border-radius: 5px;
+	padding: 8px;
 }
