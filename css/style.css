@@ -1,78 +1,75 @@
-
 /********************Egzona**********************************/
 body, html
 {
-	padding: 0;
-	margin: 0;
+padding: 0;
+margin: 0;
 }
 footer
 {
-	background-color: #1a1a1a;
-	color: white;
+background-color: #1a1a1a;
+color: white;
 }
 .name
 {
-	background-color: #232323;
-	color: #989898;
-	border:none;
-	border-radius: 7px;
-	width: 222px;
-	height: 32px;
-	padding: 5px;
-	margin: 5px;
+background-color: #232323;
+color: #989898;
+border:none;
+border-radius: 7px;
+width: 222px;
+height: 32px;
+padding: 5px;
+margin: 5px;
 }
 .email
 {
-	background-color: #232323;
-	color: #989898;
-	border:none;
-	border-radius: 7px;
-	width: 222px;
-	height: 32px;
-	padding: 5px;
-	margin: 5px;
+background-color: #232323;
+color: #989898;
+border:none;
+border-radius: 7px;
+width: 222px;
+height: 32px;
+padding: 5px;
+margin: 5px;
 }
 .subject
 {
-	background-color: #232323;
-	color: #989898;
-	border:none;
-	border-radius: 7px;
-	width: 222px;
-	height: 32px;
-	padding: 5px;
-	margin: 5px;
+background-color: #232323;
+color: #989898;
+border:none;
+border-radius: 7px;
+width: 222px;
+height: 32px;
+padding: 5px;
+margin: 5px;
 }
-
 .message
 {
-	background-color: #232323;
-	color: #989898;
-	border:none;
-	border-radius: 7px;
-	width: 222px;
-	height: 111px;
-	padding: 5px;
-	margin: 5px;
-
+background-color: #232323;
+color: #989898;
+border:none;
+border-radius: 7px;
+width: 222px;
+height: 111px;
+padding: 5px;
+margin: 5px;
 }
 .name:hover
 {
-	transform: scale(1.03);
-	color: #8e44ad;
+transform: scale(1.03);
+color: #8e44ad;
 }
 .email:hover
 {
-	transform: scale(1.03);
-	color: #8e44ad;
+transform: scale(1.03);
+color: #8e44ad;
 }
 .subject:hover
 {
-	transform: scale(1.03);
-	color: #8e44ad;
+transform: scale(1.03);
+color: #8e44ad;
 }
 .message:hover
 {
-	transform: scale(1.03);
-	color: #8e44ad;
+transform: scale(1.03);
+color: #8e44ad;
 }
