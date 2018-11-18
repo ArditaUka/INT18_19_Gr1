@@ -73,3 +73,13 @@ color: #8e44ad;
 transform: scale(1.03);
 color: #8e44ad;
 }
+.submit
+{
+	border:none;
+	background-color: #0099ff;
+	color: #ffffff;
+	border-radius: 7px;
+	width: 78px;
+	height: 31px;
+	margin: 5px;
+}
