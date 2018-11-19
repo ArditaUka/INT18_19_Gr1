@@ -93,3 +93,8 @@ color: #8e44ad;
 	margin-left: 5px;
 	margin-bottom: 12px;
 }
+.footer-right
+{
+	display: flex;
+	text-align: center;
+}
