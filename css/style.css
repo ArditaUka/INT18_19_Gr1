@@ -168,7 +168,6 @@ color: #8e44ad;
 	display: flex;
 	text-align: center;
 }
-<<<<<<< HEAD
 /*---------------------------PUHIZA----------------------------*/
 .contactus{ 
 	font-family: "Times New Roman";
@@ -198,13 +197,9 @@ vertical-align: center;
 	margin-bottom:12px;
 
 	background-color: #1a1a1a;
-	/*color: white;*/
+	color: white;
 }
 .readmore{
 	background-color: none;
 	color:blue;
 }
-
-
-=======
->>>>>>> ad792ad4225afae59570ed0ea371262ea656b1ee
