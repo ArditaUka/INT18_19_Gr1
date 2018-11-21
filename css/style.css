@@ -1,3 +1,73 @@
+/********************Rrezarta**********************************/
+.image
+ {
+width: 85px;
+height: 80px;
+padding: 10px;
+margin: 10px;
+
+}
+
+
+.paragraf
+{
+  font-size: 14px;
+	font-style: italic;
+	font-family: Georgia;
+  padding: 3px ;
+  margin: 3px;
+  text-align: center;
+
+}
+
+.div
+{
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+
+.linku
+ {
+font-style: italic;
+color: blue;
+font-family: Arial;
+font-size: 14px;
+padding: 0;
+margin: 0;
+}
+
+.linku:hover
+{
+
+	color: #999999;
+  background-color:	#996666;
+  padding: 0;
+  margin: 0;
+}
+
+.linku:visited
+{
+color: black;
+background-color: #999999;
+padding: 0;
+margin: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********************Egzona**********************************/
 body, html
 {
@@ -98,6 +168,7 @@ color: #8e44ad;
 	display: flex;
 	text-align: center;
 }
+<<<<<<< HEAD
 /*---------------------------PUHIZA----------------------------*/
 .contactus{ 
 	font-family: "Times New Roman";
@@ -111,7 +182,7 @@ color: #8e44ad;
 }
 .button{
 	font-size:1.5em;
-	color:#999999;
+	color:white;
 	float: right;
 	/*margin-bottom: 100px;*/
 	background-color: #46C6D0;
@@ -135,3 +206,5 @@ vertical-align: center;
 }
 
 
+=======
+>>>>>>> ad792ad4225afae59570ed0ea371262ea656b1ee
