@@ -280,10 +280,14 @@ color: white;
 .readmore
 {
 background-color: none;
-color:blue;
+color:#0099ff;
 }
 .quick a
 {
 background-color: none;
-color:blue;
+color:#0099ff;
+}
+.viza
+{
+  border-color: #232323;
 }
