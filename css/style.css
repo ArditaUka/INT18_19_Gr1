@@ -98,6 +98,7 @@ footer
 {
 background-color: #1a1a1a;
 color: white;
+border-top: 4px solid #000000;
 }
 .footer
 {
@@ -110,11 +111,10 @@ background-color: #232323;
 color: #989898;
 border:none;
 border-radius: 7px;
-width: 225px;
-height: 31px;
-padding: 5px;
+width: 250px;
+padding: 13px;
 margin-left: 5px;
-margin-bottom: 12px;
+margin-bottom: 15px;
 font-size: 14px;
 outline: none;
 }
@@ -124,11 +124,10 @@ background-color: #232323;
 color: #989898;
 border:none;
 border-radius: 7px;
-width: 225px;
-height: 31px;
-padding: 5px;
+width: 250px;
+padding: 13px;
 margin-left: 5px;
-margin-bottom: 12px;
+margin-bottom: 15px;
 font-size: 14px;
 outline: none;
 }
@@ -138,11 +137,10 @@ background-color: #232323;
 color: #989898;
 border:none;
 border-radius: 7px;
-width: 225px;
-height: 31px;
-padding: 5px;
+width: 250px;
+padding: 13px;
 margin-left: 5px;
-margin-bottom: 12px;
+margin-bottom: 15px;
 font-size: 14px;
 outline: none;
 }
@@ -152,11 +150,10 @@ background-color: #232323;
 color: #989898;
 border:none;
 border-radius: 7px;
-width: 225px;
-height: 110px;
-padding: 5px;
+width: 250px;
+padding: 13px;
 margin-left: 5px;
-margin-bottom: 12px;
+margin-bottom: 15px;
 font-size: 14px;
 outline: none;
 }
@@ -206,6 +203,28 @@ text-align: center;
 {
   width: 25%;
   margin: 9px;
+}
+.copy
+{
+  border-top: 3px solid #2d2d2d;
+  padding: 3px;
+  color: #666666;
+  background-color: #222222;
+}
+.blogpost
+{
+  color: #666666;
+}
+.imgborder
+{
+  border:1px solid #666666;
+  padding: 5px;
+}
+.position
+{
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
 /*---------------------------PUHIZA----------------------------*/
 
@@ -269,12 +288,14 @@ border:none;
 margin-left: 0px;
 margin-bottom: 12px;
 background-color: #1a1a1a;
-color: white;
+color: #666666;
 }
 .readmore
 {
 background-color: none;
 color:#0099ff;
+display: flex;
+justify-content: flex-end;
 }
 .quick a
 {
