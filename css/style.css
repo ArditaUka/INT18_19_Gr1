@@ -92,6 +92,7 @@ padding: 5px;
 margin-left: 5px;
 margin-bottom: 12px;
 font-size: 14px;
+outline: none;
 }
 .email
 {
@@ -105,6 +106,7 @@ padding: 5px;
 margin-left: 5px;
 margin-bottom: 12px;
 font-size: 14px;
+outline: none;
 }
 .subject
 {
@@ -118,6 +120,7 @@ padding: 5px;
 margin-left: 5px;
 margin-bottom: 12px;
 font-size: 14px;
+outline: none;
 }
 .message
 {
@@ -131,6 +134,7 @@ padding: 5px;
 margin-left: 5px;
 margin-bottom: 12px;
 font-size: 14px;
+outline: none;
 }
 .name:hover
 {
@@ -211,6 +215,7 @@ color: #8e44ad;
 	vertical-align: center;
 	width: 279px;
 	height: 58px;
+	outline: none;
 }
 .button a
 {
