@@ -71,7 +71,7 @@ margin: 0;
 /********************Egzona**********************************/
 body, html
 {
-	font-family: 'Titillium Web', sans-serif;
+font-family: 'Titillium Web', sans-serif;
 padding: 0;
 margin: 0;
 }
@@ -79,6 +79,11 @@ footer
 {
 background-color: #1a1a1a;
 color: white;
+}
+.footer
+{
+  display: flex;
+  padding-bottom: 30px;
 }
 .name
 {
@@ -172,6 +177,17 @@ margin-bottom: 12px;
 display: flex;
 text-align: center;
 }
+.footer-left
+{
+  display: flex;
+  text-align: center;
+
+}
+.widthi
+{
+  width: 25%;
+  margin: 9px;
+}
 /*---------------------------PUHIZA----------------------------*/
 
 .row1
@@ -197,14 +213,15 @@ font-size: 1em;
 color: #596c6e;
 padding: 10px;
 padding-left: 20px;
-border-left: 14px solid lightblue;
-/*background-color: #e0e0e0;*/
+border-left: 14px solid #0099ff;
+background-color: #e0e0e0;
  /*width: 960px;*/
 height: 120px;
 max-width: 1150px;
 margin: 0 auto;
 margin-left: 28px;
 margin-bottom: 20px;
+
 
 }
 .button
@@ -240,3 +257,4 @@ color: white;
 background-color: none;
 color:blue;
 }
+
