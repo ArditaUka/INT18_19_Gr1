@@ -3,10 +3,11 @@
  {
 width: 85px;
 height: 80px;
-padding: 10px;
-margin: 10px;
+padding: 5px;
+margin-left: 80px;
 
 }
+
 .image1
 {
   width: 600px;
@@ -42,13 +43,16 @@ margin: 10px;
 
 .linku
  {
+
 font-style: italic;
 color: blue;
 font-family: Arial;
 font-size: 14px;
-padding: 0;
-margin: 0;
-align: botom;
+padding: 5px;
+margin-left: 70px;
+text-align: center ;
+
+
 }
 
 .linku:hover
@@ -60,6 +64,7 @@ align: botom;
   margin: 0;
 }
 
+
 .linku:visited
 {
 color: black;
@@ -67,16 +72,17 @@ background-color: #999999;
 padding: 0;
 margin: 0;
 
-
 }
-.renditja{
-             -webkit-column-count: 2;
-             -webkit-column-gap: 2px;
-             -webkit-column-rule: 1px, crimson, outset;
-             -webkit-column-fill: balance;
+
+.renditja
+{
+-webkit-column-count: 2;
+-webkit-column-gap: 2px;
+-webkit-column-rule: 1px, crimson, outset;
+-webkit-column-fill: balance;
 
 
-            }
+  }
 
 
 
