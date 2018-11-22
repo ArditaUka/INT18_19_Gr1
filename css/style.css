@@ -7,6 +7,15 @@ padding: 10px;
 margin: 10px;
 
 }
+.image1
+{
+  width: 600px;
+  height: 450px;
+  padding: 10px;
+  margin: 20px;
+
+
+}
 
 
 .paragraf
@@ -24,7 +33,11 @@ margin: 10px;
 {
 	background-color: white;
 	padding: 10px;
-	margin: 10px;
+	margin: 40px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 2px;
+  -webkit-column-rule: 1px, crimson, outset;
+  -webkit-column-fill: balance;
 }
 
 .linku
@@ -55,9 +68,14 @@ margin: 0;
 
 
 }
+.renditja{
+             -webkit-column-count: 2;
+             -webkit-column-gap: 2px;
+             -webkit-column-rule: 1px, crimson, outset;
+             -webkit-column-fill: balance;
 
 
-
+            }
 
 
 
@@ -209,7 +227,7 @@ margin-bottom: 20px;
 }
 .button
 {
-padding-top: 
+padding-top:
 color:white;
 float: right;
 /*margin-bottom: 100px;*/
