@@ -228,15 +228,6 @@ text-align: center;
 {
   color: #666666;
 }
-.imgborder
-{
-  border:1px solid #666666;
-  padding: 5px;
-}
-.imgborder:hover
-{
-  transform: scale(1.1);
-}
 .position
 {
   color: white;
@@ -267,7 +258,7 @@ align-items: center;
 font-size: 1em;
 color: #596c6e;
 padding: 10px;
-padding-left: 20px;
+padding-left: 24px;
 border-left: 14px solid #0099ff;
 background-color: #e0e0e0;
  /*width: 960px;*/
@@ -275,7 +266,7 @@ height: 120px;
 max-width: 1150px;
 margin: 0 auto;
 margin-left: 28px;
-margin-bottom: 20px;
+margin-bottom: 28px;
 
 
 }
@@ -296,7 +287,9 @@ outline: none;
 {
 text-decoration:none;
 color: white;
-font-size: 20px;
+font-size: 30px;
+font-family: 'Sorts Mill Goudy', serif;
+padding-top: 3px;
 }
 .aboutus
 {
@@ -306,6 +299,15 @@ margin-left: 0px;
 margin-bottom: 12px;
 background-color: #1a1a1a;
 color: #666666;
+}
+.imgborder
+{
+  border:1px solid #666666;
+  padding: 5px;
+}
+.imgborder:hover
+{
+  transform: scale(1.1);
 }
 .readmore
 {
