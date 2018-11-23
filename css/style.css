@@ -3,17 +3,18 @@
  {
 width: 85px;
 height: 80px;
-padding: 5px;
-margin-left: 93px;
+padding: 1px;
+margin-left: 95px;
 
 }
 
 .image1
 {
-  width: 600px;
-  height: 450px;
-  padding: 10px;
-  margin: 20px ;
+  width: 655px;
+  height: 412px;
+  padding-top: 1px;
+  margin-left: 30px ;
+  margin-right: 5px;
 
 
 }
@@ -27,6 +28,7 @@ margin-left: 93px;
   padding: 3px ;
   margin: 3px;
   text-align: center;
+  font-size: 14px;
 
 }
 
@@ -35,9 +37,11 @@ margin-left: 93px;
 	background-color: white;
 	padding: 10px;
 	margin: 40px;
+  font-size: 14px;
+  /*text-align: center;*/
 
   -webkit-column-count: 2;
-  -webkit-column-gap: 2px;
+  -webkit-column-gap: 8px;
   -webkit-column-rule: 1px, crimson, outset;
   -webkit-column-fill: balance;
 }
@@ -51,6 +55,7 @@ font-family: Arial;
 font-size: 14px;
 padding: 5px;
 margin-left: 70px;
+font-size: 14px;
 text-align: center ;
 text-decoration: none;
 
@@ -63,8 +68,10 @@ text-decoration: none;
 	color: #999999;
   background-color:	#996666;
   padding: 1px;
-  /*margin: 1px;*/
+  margin: 1px;
   margin-left: 65px;
+  font-size: 14px;
+  text-align: center;
   text-decoration: none;
 
 }
@@ -77,12 +84,16 @@ background-color: #999999;
 padding: 1px;
 /*margin: 1px;*/
 margin-left: 70px;
+font-size: 14px;
+text-align: center;
 text-decoration: none;
 
 }
 
 .renditja
 {
+  /*text-align: center;*/
+
 -webkit-column-count: 2;
 -webkit-column-gap: 2px;
 -webkit-column-rule: 1px, crimson, outset;
