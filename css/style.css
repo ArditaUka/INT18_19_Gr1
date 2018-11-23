@@ -1,21 +1,57 @@
 /********************Rrezarta**********************************/
-.image
+.image1
  {
 width: 85px;
 height: 80px;
 padding: 1px;
 margin-left: 95px;
+padding-bottom: 22px;
 
 }
 
-.image1
+
+.image2
+ {
+width: 85px;
+height: 80px;
+padding: 1px;
+margin-left: 95px;
+padding-bottom: 22px;
+padding-top: 25px;
+
+}
+
+
+.image3
+ {
+width: 85px;
+height: 80px;
+padding: 1px;
+margin-left: 95px;
+padding-bottom: 22px;
+
+}
+
+
+.image4
+ {
+width: 85px;
+height: 80px;
+padding: 1px;
+margin-left: 95px;
+padding-bottom: 22px;
+padding-top: 25px;
+
+}
+
+
+.imageBig
 {
   width: 655px;
   height: 412px;
   padding-top: 1px;
   margin-left: 30px ;
   margin-right: 5px;
-
 
 }
 
@@ -35,7 +71,9 @@ margin-left: 95px;
 .div
 {
 	background-color: white;
-	padding: 10px;
+	padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 	margin: 40px;
   font-size: 14px;
   /*text-align: center;*/
@@ -101,15 +139,6 @@ text-decoration: none;
 
 
   }
-
-
-
-
-
-
-
-
-
 
 /********************Egzona**********************************/
 body, html
