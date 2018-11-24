@@ -85,8 +85,8 @@ border-radius: 3px;
 {
 	background-color: white;
 	padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
+  padding-right: 80px;
+  padding-top: 20px;
 	margin: 40px;
   font-size: 14px;
   /*text-align: center;*/
@@ -147,7 +147,7 @@ text-decoration: none;
   /*text-align: center;*/
 
 -webkit-column-count: 2;
--webkit-column-gap: 2px;
+-webkit-column-gap: 0.5px;
 -webkit-column-rule: 1px, crimson, outset;
 -webkit-column-fill: balance;
 
