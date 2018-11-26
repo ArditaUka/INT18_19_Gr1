@@ -1,3 +1,46 @@
+/********************Ardita**********************************/
+header
+{
+  background-color: #2e2e2e;
+}
+.header
+{
+  display: flex;
+  justify-content: space-between;
+}
+.header-top 
+{
+color: white;
+display: flex;
+}
+.header-top ul
+{
+  list-style-type: none;
+  display: flex;
+  padding: 3px;
+}
+.header-top a
+{
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+  justify-content: center;
+}
+.header-top a li:hover
+{
+  color: #6D214F;
+}
+.header-bottom ul
+{
+  display: flex;
+  list-style-type: none;
+}
+.header-bottom ul a
+{
+  padding: 5px;
+}
+
+
 /********************Rrezarta**********************************/
 .image1
  {
