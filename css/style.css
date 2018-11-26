@@ -7,6 +7,7 @@ header
 {
   display: flex;
   justify-content: space-between;
+  height: 60px;
 }
 .header-top 
 {
@@ -30,6 +31,10 @@ display: flex;
 {
   color: #6D214F;
 }
+.header-bottom
+{
+  margin-left: 5px;
+}
 .header-bottom ul
 {
   display: flex;
@@ -37,7 +42,34 @@ display: flex;
 }
 .header-bottom ul a
 {
-  padding: 5px;
+  padding: 6px;
+}
+.main-top
+{
+padding-top: 0px;
+}
+.main-top ul
+{
+list-style-type: none;
+display: flex;
+margin-left: -35px;
+}
+.main-top ul a
+{
+  margin: 8px;
+  text-decoration: none;
+   display: inline-block;
+   color: black;
+}
+.main-top ul a li:hover
+{
+color:black;
+opacity: 0.5;
+transition: 0.9s ease;
+}
+.main-top hr
+{
+  border:2px solid rgba(0,0,0,0.5);
 }
 
 
