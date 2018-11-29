@@ -3,6 +3,11 @@ header
 {
   background-color: #2e2e2e;
 }
+.container
+{
+  max-width: 1200px;
+  margin:0 auto;
+}
 .header
 {
   display: flex;
@@ -43,6 +48,10 @@ display: flex;
 .header-bottom ul a
 {
   padding: 6px;
+}
+.main-top1
+{
+  padding-bottom: 30px;
 }
 .main-top
 {
@@ -115,7 +124,42 @@ transition: 0.4s ease;
   color: white;
   outline: none;
 }
-
+.main-bottom
+{
+  padding-top: 0px;
+  padding-bottom: 30px;
+  display: flex;
+}
+.mainbottom1
+{
+  width: 50%;
+  justify-content: space-between;
+}
+.mainbottom1 img
+{
+  width: 100%;
+}
+.main1
+{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.main1 h1
+{
+  line-height: 30px;
+  width: 350px;
+  font-family: 'Niramit',sans-serif;
+}
+.read input
+{
+  border:none;
+  background-color: #0099ff;
+  padding: 10px 15px 10px 0px;
+  color: white;
+  border-radius: 8px;
+  width: 126px;
+  height: 31px;
+}
 /********************Rrezarta**********************************/
 .image1
  {
