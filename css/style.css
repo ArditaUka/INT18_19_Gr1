@@ -89,6 +89,39 @@ transition: 0.4s ease;
   display: flex;
   justify-content: space-between;
 }
+.dropdown div
+{
+  display: none;
+}
+
+.dropdown:hover div 
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.dropdown div a
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: auto;
+  height: 30px;
+  padding-top: 2px;
+  padding-left: 2px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease;
+}
+
+.dropdown div a:hover
+{
+  background-color: #0099ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
 .butonat
 {
   padding-top:50px;
