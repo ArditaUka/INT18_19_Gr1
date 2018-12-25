@@ -1,6 +1,13 @@
+body, html
+{
+font-family: 'Titillium Web', sans-serif;
+padding: 0;
+margin: 0;
+}
 header
 {
   background-color: #2e2e2e;
+
 }
 .container
 {
@@ -65,7 +72,6 @@ padding-top: 0px;
 {
 list-style-type: none;
 display: flex;
-margin-left: -35px;
 }
 .main-top ul a
 {
@@ -84,11 +90,43 @@ transition: 0.4s ease;
 {
   border:2px solid rgba(0,0,0,0.5);
 }
+.main-top li:hover
+{
+  border-bottom: 3px solid #0099ff;
+}
 .main-top1
 {
   display: flex;
   justify-content: space-between;
 }
+.main-top li:hover
+{
+  border-bottom: 3px solid #0099ff;
+}
+.main-top
+{
+padding-top: 0px;
+}
+.main-top ul
+{
+list-style-type: none;
+display: flex;
+padding-left: 0;
+margin-bottom: 0px;
+}
+.main-top ul a
+{
+  margin: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+.main-top ul a li:hover
+{
+color: #9f9f9f;
+transition: 0.4s ease;
+}
+
 
 .dropdown div
 {
@@ -122,4 +160,41 @@ transition: 0.4s ease;
   color: white;
   cursor: pointer;
   transition: 0.5s ease;
+}
+
+.butonat
+{
+  padding-top:50px;
+}
+#logo
+{
+  color: #2e2e2e;
+  margin-bottom: 0px;
+  font-family: 'Pacifico', cursive;
+}
+.teksti p
+{
+  margin-top: 0px;
+  color: #999999;
+}
+.input1
+{
+  border:none;
+  padding: 7px;
+  border-radius: 5px;
+  color: #2c3e50;
+  outline: none;
+}
+.input1::placeholder
+{
+  font-size: 14px;
+}
+.input2
+{
+  border:none;
+  background-color: #0099FF;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
 }
