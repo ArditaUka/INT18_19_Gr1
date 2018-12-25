@@ -94,7 +94,7 @@ transition: 0.4s ease;
   display: none;
 }
 
-.dropdown:hover div 
+.dropdown:hover div
 {
     display: flex;
     flex-direction: column;
@@ -173,7 +173,7 @@ transition: 0.4s ease;
   width: 100%;
 }
 .main1
-{ 
+{
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -183,7 +183,7 @@ transition: 0.4s ease;
   width: 350px;
   color: #333333;
 }
-.main1 p 
+.main1 p
 {
   color:#666666;
   width: 500px;
@@ -251,9 +251,9 @@ border-radius: 3px;
 width: 85px;
 height: 80px;
 padding: 1px;
-margin-left: 95px;
+margin-left: 75px;
 padding-bottom: 22px;
-padding-top: 25px;
+  padding-top: 25px;
 border-radius: 3px;
 /*border: 1px solid #d6dcd9;*/
 
