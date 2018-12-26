@@ -442,22 +442,63 @@ mark
 }
 
 .shkrimi {
-    padding: 20px 30px 30px 10px;
-/*  height: auto;*/
-    margin-bottom: 6.5px;
-    margin-right: 200px;
-    padding: 15px 10px;
-    text-align: left;
-    background: rgba(0,0,0,0.6);
-    position: absolute;
-    bottom: 0;
-    color: white;
-    height: 430.5px;
-    width: 350px;
-    min-height:20px;
+ padding: 20px 30px 30px 10px;
+ /*height: auto;*/
+ margin-bottom: 6.5px;
+ margin-right: 200px;
+ padding: 15px 10px;
+ text-align: left;
+ background: rgba(0,0,0,0.6);
+ position: absolute;
+ bottom: 0;
+ color: white;
+ height: 430.5px;
+ width: 350px;
+ min-height:20px;
 }
 .image1 {
 display: flex;
 padding-left: 0px;
 position: fixed;
+}
+
+.krejtlista{
+  column-count: 2;
+  column-width: 60px;
+  column-gap: 30px;
+  margin-left: 230px;
+  margin-top: 50px;
+}
+.ourservices{
+  margin-right: 140px;
+  text-align: center;
+  color: #0099ff;
+}
+.comunication{
+  margin-left: 35px;
+  color:#0099ff;
+  margin-bottom: -30px;
+/*  margin-top: 40px;*/
+padding-top: 20px;
+  padding-bottom: 6px;
+
+}
+.lista1{
+  background-color: lightgrey;
+  margin-right: 0px;
+  margin-left: 90px;
+  width: 250px;
+  padding-bottom: 0px;
+  height: 160px;
+  padding-top: 20px;
+}
+.lista2{
+
+  background-color: lightgrey;
+  margin-right: 100px;
+  margin-left: 0px;
+  margin-top: 44px;
+  width:250px;
+  height: 160px;
+  padding-top: 20px;
 }
