@@ -440,3 +440,24 @@ mark
   color: white;
   padding: 2px;
 }
+
+.shkrimi {
+    padding: 20px 30px 30px 10px;
+/*  height: auto;*/
+    margin-bottom: 6.5px;
+    margin-right: 200px;
+    padding: 15px 10px;
+    text-align: left;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    height: 430.5px;
+    width: 350px;
+    min-height:20px;
+}
+.image1 {
+display: flex;
+padding-left: 0px;
+position: fixed;
+}
