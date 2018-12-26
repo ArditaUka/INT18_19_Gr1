@@ -210,66 +210,90 @@ transition: 0.4s ease;
  {
 width: 85px;
 height: 80px;
+color: black;
 padding: 1px;
-margin-left: 95px;
-padding-bottom: 22px;
+margin-left: 65px;
+padding-bottom: 30px;
 border-radius: 3px;
-/*border: 1px solid #d6dcd9;*/
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 2px;
+display: inline-block;
+transition: 0.5s ease;
 
 }
 
 
 .image2
  {
-width: 85px;
-height: 80px;
-padding: 1px;
-margin-left: 95px;
-padding-bottom: 22px;
-padding-top: 25px;
-border-radius: 3px;
-/*border: 1px solid #d6dcd9;*/
+   width: 85px;
+   height: 80px;
+   color: black;
+   padding: 1px;
+   margin-left: 35px;
+   margin-top: 20px;
+   padding-bottom: 30px;
+   border-radius: 3px;
+   margin-bottom: 0px;
+   width: auto;
+   padding-left: 2px;
+   text-decoration: none;
+   display: inline-block;
+   transition: 0.5s ease;
 
 }
 
 
 .image3
  {
-width: 85px;
-height: 80px;
-padding: 1px;
-margin-left: 95px;
-padding-bottom: 22px;
-border-radius: 3px;
-/*border: 1px solid #d6dcd9;*/
+   width: 85px;
+   height: 80px;
+   padding: 1px;
+   margin-left: 30px;
+   padding-bottom: 22px;
+   color: black;
+   padding-top: 0px;
+   border-radius: 3px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   width: auto;
+   padding-left: 2px;
+   text-decoration: none;
+   transition: 0.5s ease;
+   display: inline-block;
 
 }
 
 
 .image4
  {
-width: 85px;
-height: 80px;
-padding: 1px;
-margin-left: 75px;
-padding-bottom: 22px;
-  padding-top: 25px;
-border-radius: 3px;
-/*border: 1px solid #d6dcd9;*/
-
+   width: 85px;
+   height: 80px;
+   padding: 1px;
+   margin-left: 30px;
+   padding-bottom: 22px;
+   color: black;
+   padding-top: 25px;
+   border-radius: 3px;
+   margin-top: 20px;
+   margin-bottom: 0px;
+   width: auto;
+   padding-left: 18px;
+   text-decoration: none;
+   transition: 0.5s ease;
+   display: inline-block;
 }
 
 
 .imageBig
 {
-  width: 655px;
-  height: 412px;
+  width: 710px;
+  height: 450px;
   padding-top: 1px;
-  margin-left: 30px ;
+  margin-left: 0px ;
   margin-right: 5px;
   border-radius: 4px;
   border: 1px solid #d6dcd9;
-
 
 }
 
@@ -284,6 +308,7 @@ border-radius: 3px;
   text-align: center;
 
 
+
 }
 
 
@@ -291,11 +316,13 @@ border-radius: 3px;
 .div
 {
 	background-color: white;
-	padding-left: 10px;
-  padding-right: 80px;
+	padding-left: 40px;
+  padding-right: 50px;
   padding-top: 20px;
 	margin: 40px;
+  margin-right: 40px;
   font-size: 14px;
+  /*text-align: center;*/
   /*text-align: center;*/
 
   -webkit-column-count: 2;
@@ -305,7 +332,6 @@ border-radius: 3px;
   -moz-transform-column-count: 2;
   -moz-transform-column-gap: 8px;
   -moz-transform-column-rule: 1px, DarkCyan, outset;
-  -moz-transform-
   -o-transform-column-count: 2;
   -o-transform-column-gap: 8px;
   -o-transform-column-rule: 1px,DarkCyan , outset;
@@ -319,16 +345,18 @@ border-radius: 3px;
 
 .linku
  {
-
+padding-bottom: 5px;
 font-style: italic;
 color: blue;
 font-family: Arial;
 font-size: 14px;
-padding: 5px;
+padding: 0px;
 margin-left: 70px;
+margin-right: 0px;
 font-size: 14px;
 text-align: center ;
 text-decoration: none;
+/*padding-right: 20px;*/
 
 
 }
@@ -340,7 +368,7 @@ text-decoration: none;
   background-color:	#996666;
   padding: 1px;
   margin: 1px;
-  margin-left: 65px;
+  margin-left: 60px;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
@@ -354,7 +382,7 @@ color: blue;
 background-color: #999999;
 padding: 1px;
 /*margin: 1px;*/
-margin-left: 70px;
+margin-left: 60px;
 font-size: 14px;
 text-align: center;
 text-decoration: none;
@@ -363,7 +391,11 @@ text-decoration: none;
 
 .renditja
 {
-  /*text-align: center;*/
+column-count: 2;
+column-gap: 0.5px;
+column-rule: 1px, DarkCyan, outset;
+column-fill: balance;
+/*text-align: center;*/
 
 -webkit-column-count: 2;
 -webkit-column-gap: 0.5px;
@@ -372,7 +404,7 @@ text-decoration: none;
 -moz-transform-column-count: 2;
 -moz-transform-column-gap: 8px;
 -moz-transform-column-rule: 1px, DarkCyan, outset;
--moz-transform-
+-moz-transform-column-fill:balance;
 -o-transform-column-count: 2;
 -o-transform-column-gap: 8px;
 -o-transform-column-rule: 1px,DarkCyan , outset;
