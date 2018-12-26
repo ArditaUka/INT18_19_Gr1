@@ -215,6 +215,8 @@ border-top: 4px solid #000000;
 {
   display: flex;
   padding-bottom: 30px;
+
+
 }
 .name
 {
@@ -455,6 +457,8 @@ mark
  height: 430.5px;
  width: 350px;
  min-height:20px;
+ /*display: flex;*/
+ object-position: fixed;
 }
 .image1 {
 display: flex;
@@ -468,6 +472,8 @@ position: fixed;
   column-gap: 30px;
   margin-left: 230px;
   margin-top: 50px;
+  font-size: 1.5em;
+  /*display: flex;*/
 }
 .ourservices{
   margin-right: 140px;
@@ -475,12 +481,13 @@ position: fixed;
   color: #0099ff;
 }
 .comunication{
-  margin-left: 35px;
+  margin-left: -20px;
   color:#0099ff;
   margin-bottom: -30px;
 /*  margin-top: 40px;*/
-padding-top: 20px;
+padding-top: 23px;
   padding-bottom: 6px;
+  text-align: left;
 
 }
 .lista1{
@@ -489,7 +496,7 @@ padding-top: 20px;
   margin-left: 90px;
   width: 250px;
   padding-bottom: 0px;
-  height: 160px;
+  height: 250px;
   padding-top: 20px;
 }
 .lista2{
@@ -497,8 +504,8 @@ padding-top: 20px;
   background-color: lightgrey;
   margin-right: 100px;
   margin-left: 0px;
-  margin-top: 44px;
+  margin-top: 56px;
   width:250px;
-  height: 160px;
-  padding-top: 20px;
+  height: 250px;
+padding-top: 20px;
 }
