@@ -478,41 +478,63 @@ position: fixed;
 .ourservices{
   margin-right: 140px;
   text-align: center;
-  color: #0099ff;
+  color: #E7E7E7;
+  background-color: #5DB4D9;
+  width:291.7px;
+  margin-left: 91px; 
+  margin-bottom: 0px;
+  font-size:0.8em;
+  padding-bottom: 14px;
+  max-height:60px;
+}
+.ourservices h3{
+  padding-top: 7px;
 }
 .comunication{
-  margin-left: -20px;
-  color:#0099ff;
-  margin-bottom: -30px;
-/*  margin-top: 40px;*/
-padding-top: 23px;
-  padding-bottom: 6px;
-  text-align: left;
-
+ color: #E7E7E7;
+  background-color: #5DB4D9;
+  width:291.7px;
+  margin-bottom: 0px;
+  padding-bottom: 14px;
+  text-align: center;
+  font-size:0.8em;
+/*  padding-top:3px; */
+    max-height:60px;
+    margin-top: -74.5px;
+    height: 57px;
+}
+.comunication h3{
+  padding-top: 7px;
 }
 .lista1{
-  background-color: lightgrey;
+  background-color: #E7E7E7;
+  border:1px solid  #0099ff;
   margin-right: 0px;
-  margin-left: 90px;
+  margin-left: 91px;
   width: 250px;
   padding-bottom: 0px;
   height: 280px;
   padding-top: 20px;
+  margin-top: -7.5px;
 }
 .lista2{
 
-  background-color: lightgrey;
+  background-color: #E7E7E7;
+  border:1px solid  #0099ff;
   margin-right: 100px;
   margin-left: 0px;
-  margin-top: 56px;
+  margin-top: -15px;
   width:250px;
+  padding-bottom: 0px;
   height: 280px;
-padding-top: 20px;
+  padding-top: 20px;
+  margin-top: 0px;
 
 
 }
 .krejtlista ul{
   list-style: none;
+
 
 }
 .krejtlista ul li::before{
