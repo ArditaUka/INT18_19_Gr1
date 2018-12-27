@@ -1,0 +1,197 @@
+body
+{
+	max-width: 100%;
+	background-image: url(../Images/background.jpg);
+	background-size: 100%;
+}
+
+.simple-form
+{
+	text-align: center;
+	margin: 100px 400px;
+}
+
+#registration
+{
+	width: 100%;
+	background-color: #051019;
+	opacity: 0.8;
+	padding: 50px 0px;
+}
+
+#button
+{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+}
+
+#ph
+{
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+}
+#phone
+{
+	width: 170px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+}
+
+#but
+{
+	color: white;
+	font-size: 18px;
+}
+
+#butto
+{
+	width: 200px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	background-color: #0c6996;
+	border:2px solid #01010c;
+	color: aliceblue;
+	font-size: 16px;
+}
+#log 
+{
+	text-decoration: none;
+	color: dodgerblue;
+}
+body, html
+{
+font-family: 'Titillium Web', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+header
+{
+  background-color: #2e2e2e;
+}
+#logo
+{
+  font-family: 'Pacifico', cursive;
+}
+.container
+{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.header-top 
+{
+color: white;
+display: flex;
+}
+.header-top ul
+{
+  list-style-type: none;
+  display: flex;
+  padding: 3px;
+  margin-top: 5px;
+}
+.header-top a
+{
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+  justify-content: center;
+}
+.header-top a li:hover
+{
+  color: #0C72E8;
+}
+.header-bottom
+{
+  margin-left: 5px;
+  justify-content: space-between;
+
+}
+.header-bottom ul
+{
+  display: flex;
+  list-style-type: none;
+}
+.header-bottom ul a
+{
+  margin-top: -5px;
+  padding: 3px;
+}
+
+
+.main-top li:hover
+{
+  border-bottom: 3px solid #0099ff;
+}
+.main-top
+{
+padding-top: 0px;
+}
+.main-top ul
+{
+list-style-type: none;
+display: flex;
+padding-left: 0;
+margin-bottom: 0px;
+}
+.main-top ul a
+{
+  margin: 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+.main-top ul a li:hover
+{
+color: #9f9f9f;
+transition: 0.4s ease;
+}
+.dropdown div
+{
+  display: none;
+}
+
+.dropdown:hover div 
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.dropdown div a
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: auto;
+  height: 30px;
+  padding-top: 2px;
+  padding-left: 2px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease;
+}
+
+.dropdown div a:hover
+{
+  background-color: #0099ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+li
+{
+	color: white;
+}
