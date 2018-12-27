@@ -552,3 +552,26 @@ position: fixed;
 .lista2 li{
   padding: 4px;
 }
+.warranty img{
+  float: left;
+  margin-right: 50px;
+  padding: 20px;
+  padding-top: 21px;
+}
+.warranty{
+  margin-left: 162px;
+  padding: 20px;
+  /*height: 240px;*/
+  margin-top: 70px;
+}
+.warranty div{
+  height:225px;
+  padding-right: 50px;
+  margin-top: 20px;
+  width: 1150px;
+  margin-right: px;
+  background-color:white;
+}
+.warranty h4{
+  padding-top: 35px;
+}
