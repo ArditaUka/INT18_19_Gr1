@@ -561,17 +561,90 @@ position: fixed;
 .warranty{
   margin-left: 162px;
   padding: 20px;
+  padding-top: 8px;
+  padding-bottom: 25px;
+  padding-right: 20px;
   /*height: 240px;*/
   margin-top: 70px;
+  background-color: none;
+  margin-right: 148px;
+  border: 5px solid #0099ff;
 }
 .warranty div{
   height:225px;
-  padding-right: 50px;
-  margin-top: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  margin-top: 17px;
   width: 1150px;
-  margin-right: px;
+  /*margin-right: 20px;*/
+
   background-color:white;
+
 }
 .warranty h4{
+  padding-top: 35px;
+}
+
+.customization img{
+  float: right;
+  margin-left: 50px;
+  padding: 20px;
+  padding-top: 21px;
+}
+.customization{
+  margin-left: 162px;
+  padding: 20px;
+  padding-top: 8px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  /*height: 240px;*/
+  margin-top: 70px;
+  background-color: none;
+  margin-right: 148px;
+  border: 5px solid #0099ff;
+}
+.customization div{
+  height:225px;
+  padding-left: 20px;
+  padding-top: 0px;
+  margin-top: 17px;
+  width: 1150px;
+  background-color:white;
+}
+.customization h4{
+  padding-top: 35px;
+}
+
+.premier img{
+  float: left;
+  margin-right: 50px;
+  padding: 20px;
+  padding-top: 21px;
+}
+.premier{
+  margin-left: 162px;
+  padding: 20px;
+  padding-top: 8px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  /*height: 240px;*/
+  margin-top: 70px;
+  background-color: none;
+  margin-right: 148px;
+  margin-bottom: 80px;
+  border: 5px solid #0099ff;
+}
+.premier div{
+  height:225px;
+  padding-right: 20px;
+  padding-top: 0px;
+  margin-top: 17px;
+  width: 1150px;
+  /*margin-right: 20px;*/
+
+  background-color:white;
+
+}
+.premier h4{
   padding-top: 35px;
 }
