@@ -426,7 +426,7 @@ margin-left: 15px;
 
 .foto{
 margin-top: 10px;
-height: 350px;
+height: 370px;
 width: 367px;
 margin-bottom: 8px;
 }
@@ -442,12 +442,17 @@ width: 200px;
 
 .rendi1
  li {
+font-size:16px;
 text-align: left;
 margin-bottom: 5px;
 margin-top: 10px;
 letter-spacing: 2px;
 }
-
+.ul li{
+  style="text-align:center"
+  margin-left: auto;
+  padding-top: 10px;
+}
 
 
 
