@@ -36,18 +36,42 @@ display: flex;
 {
   color: #6D214F;
 }
-.header-bottom
-{
-  margin-left: 5px;
-}
 .header-bottom ul
 {
   display: flex;
   list-style-type: none;
 }
-.header-bottom ul a
+.header-bottom ul li
+{
+  padding: 10px 4px;
+}
+.header-bottom ul li a
 {
   padding: 6px;
+  color: white;
+  text-align: center;
+  background: #787878;
+  border-radius: 50%;
+}
+.linkedIn:hover
+{
+  background-color: #007bb5;
+}
+.twitter:hover
+{
+  background-color: #1da1f2;
+}
+.pinterest:hover
+{
+  background-color: #bd081c;
+}
+.googleplus:hover
+{
+  background-color: #db4437;
+}
+.rss:hover
+{
+  background-color: #ee802f;
 }
 .main-top1
 {
