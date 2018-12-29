@@ -247,13 +247,13 @@ transition: 0.4s ease;
  font-family: "Lato",Helvetica,Arial,sans-serif;
  text-size:16px;
  text-indent: 50px;
-text-align: justify;
-letter-spacing: 3px;
+ text-align: justify;
+ letter-spacing: 3px;
  line-height: 1.3em;
  text-align: center;
  text-transform: uppercase;
  color: #fff;
-display:block;
+ display:block;
 
 
 /*    ne tkuqe   #990000
@@ -286,13 +286,13 @@ e gjelbert  #333300
  font-family: "Lato",Helvetica,Arial,sans-serif;
  text-size:16px;
  text-indent: 50px;
-text-align: justify;
-letter-spacing: 3px;
+ text-align: justify;
+ letter-spacing: 3px;
  line-height: 1.3em;
  text-align: center;
  text-transform: uppercase;
  color: #fff;
-display:block;
+ display:block;
 /*    ne tkuqe   #990000
 #660000
 e gjelbert  #333300
@@ -325,15 +325,15 @@ e gjelbert  #333300
  font-family: "Lato",Helvetica,Arial,sans-serif;
  text-size:16px;
  text-indent: 50px;
-text-align: justify;
-letter-spacing: 3px;
+ text-align: justify;
+ letter-spacing: 3px;
  line-height: 1.3em;
  text-align: center;
  text-transform: uppercase;
  /*filter: blur(8px);
  -webkit-filter: blur(8px);*/
-display:block;
-margin-left: 15px;
+ display:block;
+ margin-left: 15px;
 }
 .box2:hover{
  width: 1155px;
@@ -429,9 +429,17 @@ margin-top: 10px;
 height: 350px;
 width: 367px;
 margin-bottom: 8px;
-
-
 }
+
+.foto1{
+margin-top: 10px;
+margin-bottom: 8px;
+margin-left: 40px;
+margin-right: 3px;
+height: 250px;
+width: 200px;
+}
+
 .rendi1
  li {
 text-align: left;
@@ -439,17 +447,6 @@ margin-bottom: 5px;
 margin-top: 10px;
 letter-spacing: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
