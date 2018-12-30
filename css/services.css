@@ -194,7 +194,6 @@ transition: 0.4s ease;
 {
   color: #2e2e2e;
   margin-bottom: 0px;
-  font-family: 'Pacifico', cursive;
 }
 .teksti p
 {
@@ -468,26 +467,31 @@ mark
 }
 
 .shkrimi {
- padding: 20px 30px 30px 10px;
- /*height: auto;*/
+ height: auto;
  margin-bottom: 6.5px;
- margin-right: 200px;
- padding: 15px 10px;
+ margin-top: -466px;
+ padding: 0.9375em 1.6em;
+ padding-bottom: 0px;
  text-align: left;
  background: rgba(0,0,0,0.6);
- position: absolute;
- bottom: 0;
+ backface-visibility: hidden;
+ padding-top:40px;
  color: white;
- height: 430.5px;
+ height: 420.5px;
  width: 350px;
  min-height:20px;
- /*display: flex;*/
- position: absolute;
+}
+.shkrimi h3{
+  font-family: "Times New Roman";
+  font-size: 28px;
+  font-style: italic;
+
 }
 .image1 {
 display: flex;
 padding-left: 0px;
 position: fixed;
+width: 100%
 }
 
 .krejtlista{
@@ -580,19 +584,21 @@ position: fixed;
   float: left;
   margin-right: 50px;
   padding: 20px;
-  padding-top: 21px;
+  padding-top: 70px;
 }
 .warranty{
   margin-left: 162px;
-  padding: 20px;
-  padding-top: 8px;
+  /*padding: 20px;*/
+  padding-top: -10px;
   padding-bottom: 25px;
   padding-right: 20px;
+  padding-left: 20px;
   /*height: 240px;*/
   margin-top: 70px;
   background-color: none;
   margin-right: 148px;
   border: 5px solid #0099ff;
+  height: 360px;
 }
 .warranty div{
   height:225px;
@@ -601,31 +607,35 @@ position: fixed;
   margin-top: 17px;
   width: 1150px;
   /*margin-right: 20px;*/
-
   background-color:white;
 
 }
 .warranty h4{
-  padding-top: 35px;
+  padding-top: 20px;
+  padding-bottom: -10px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  font-style: italic ;
 }
 
 .customization img{
   float: right;
   margin-left: 50px;
   padding: 20px;
-  padding-top: 21px;
+  padding-top: 50px;
 }
 .customization{
   margin-left: 162px;
   padding: 20px;
-  padding-top: 8px;
-  padding-bottom: 25px;
+  padding-top: -10px;
+  padding-bottom: 20px;
   padding-right: 20px;
   /*height: 240px;*/
   margin-top: 70px;
   background-color: none;
   margin-right: 148px;
   border: 5px solid #0099ff;
+  height: 370px;
 }
 .customization div{
   height:225px;
@@ -636,27 +646,33 @@ position: fixed;
   background-color:white;
 }
 .customization h4{
-  padding-top: 35px;
+  padding-top: 20px;
+  padding-bottom: -10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  font-style: italic ;
 }
 
 .premier img{
   float: left;
   margin-right: 50px;
   padding: 20px;
-  padding-top: 21px;
+  padding-top: 70px;
 }
 .premier{
   margin-left: 162px;
-  padding: 20px;
-  padding-top: 8px;
+  /*padding: 20px;*/
+  padding-top: -10px;
   padding-bottom: 25px;
   padding-right: 20px;
-  /*height: 240px;*/
+  padding-left: 20px;
   margin-top: 70px;
   background-color: none;
   margin-right: 148px;
   margin-bottom: 80px;
   border: 5px solid #0099ff;
+  height: 380px;
 }
 .premier div{
   height:225px;
@@ -670,5 +686,9 @@ position: fixed;
 
 }
 .premier h4{
-  padding-top: 35px;
+  padding-top: 20px;
+  padding-bottom: -10px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  font-style: italic ;
 }
