@@ -474,6 +474,8 @@ mark
  padding-bottom: 0px;
  text-align: left;
  background: rgba(0,0,0,0.6);
+ -moz-backface-visibility: hidden;
+ -webkit-backface-visibility: hidden;
  backface-visibility: hidden;
  padding-top:40px;
  color: white;
@@ -535,7 +537,7 @@ width: 100%
   padding-top: 15px;
 }
 .lista1{
-  background-color: #E7E7E7;
+ background-color: #e0e0e0;;
   border:1px solid  #0099ff;
   margin-right: 0px;
   margin-left: 91px;
@@ -547,7 +549,7 @@ width: 100%
 }
 .lista2{
 
-  background-color: #E7E7E7;
+  background-color: #e0e0e0;
   border:1px solid  #0099ff;
   margin-right: 100px;
   margin-left: 0px;
