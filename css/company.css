@@ -224,7 +224,7 @@ transition: 0.4s ease;
 }
 /*******************************************************************/
  .box1 {
-  width: 365px;
+  width: 350px;
   height: 150px;
   border: 2px solid lightblue;
   background-color: #0099ff;
@@ -249,7 +249,7 @@ transition: 0.4s ease;
  */
 }
 .box1:hover{
-  width: 365px;
+  width: 350px;
   height: 150px;
   border: 2px solid  lightblue;
   background-color: lightblue;
@@ -260,7 +260,7 @@ transition: 0.4s ease;
 }
 
 .box1a {
- width: 365px;
+ width: 350px;
  height: 150px;
  border: 2px solid lightgrey;
  background-color: #E7E7E7;
@@ -287,7 +287,7 @@ e gjelbert  #333300
 */
 }
 .box1a:hover{
- width: 365px;
+ width: 350px;
  height: 150px;
  border: 2px solid   lightgrey;
  background-color: lightgrey ;
@@ -299,7 +299,7 @@ e gjelbert  #333300
 
 
 .box1b {
- width: 365px;
+ width: 350px;
  height: 150px;
  border: 2px solid #1a3300;
  background-color: #333300;
@@ -324,7 +324,7 @@ e gjelbert  #333300
 */
 }
 .box1b:hover{
- width: 365px;
+ width: 350px;
  height: 150px;
  border: 2px solid  #1a3300;
  background-color: #1a3300;
@@ -354,6 +354,8 @@ e gjelbert  #333300
  line-height: 1.3em;
  text-align: center;
  text-transform: uppercase;
+ position: relative
+;
  /*filter: blur(8px);
  -webkit-filter: blur(8px);*/
  display:block;
@@ -400,12 +402,12 @@ e gjelbert  #333300
 {
 column-count: 3;
 column-gap: 10px;
-column-rule: 12px, DarkCyan, outset;
+column-rule: 1px, DarkCyan, outset;
 column-fill: balance;
 margin-left: 15px;
 -webkit-column-count: 3;
--webkit-column-gap: 0.5px;
--webkit-column-rule: 1px, DarkCyan, outset;
+-webkit-column-gap: 10px;
+-webkit-column-rule: 10px, DarkCyan, outset;
 -webkit-column-fill: balance;
 -moz-transform-column-count: 3;
 -moz-transform-column-gap: 10px;
