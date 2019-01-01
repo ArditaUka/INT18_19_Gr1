@@ -157,7 +157,7 @@ transition: 0.4s ease;
   display: none;
 }
 
-.dropdown:hover div 
+.dropdown:hover div
 {
     display: flex;
     flex-direction: column;
@@ -221,6 +221,10 @@ transition: 0.4s ease;
   color: white;
   outline: none;
 }
+
+
+
+
 
 body, html
 {
