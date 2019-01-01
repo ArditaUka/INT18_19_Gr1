@@ -242,11 +242,7 @@ transition: 0.4s ease;
   text-transform: uppercase;
   color: #fff;
  display:block;
- /*    ne tkuqe   #990000
- #660000
- e gjelbert  #333300
- #1a3300
- */
+
 }
 .box1:hover{
   width: 350px;
@@ -280,11 +276,6 @@ transition: 0.4s ease;
  display:block;
 
 
-/*    ne tkuqe   #990000
-#660000
-e gjelbert  #333300
-#1a3300
-*/
 }
 .box1a:hover{
  width: 350px;
@@ -317,11 +308,7 @@ e gjelbert  #333300
  text-transform: uppercase;
  color: #fff;
  display:block;
-/*    ne tkuqe   #990000
-#660000
-e gjelbert  #333300
-#1a3300
-*/
+
 }
 .box1b:hover{
  width: 350px;
@@ -344,20 +331,17 @@ e gjelbert  #333300
  text-align: center;
  text-decoration-style: none;
  color: black;
- padding-top: 10px;
  line-height: 1em;
  text-align: center;
  font-family: "Lato",Helvetica,Arial,sans-serif;
- text-size:18px;
+ text-size:16px;
  text-indent: 50px;
  text-align: justify;
  letter-spacing: 3px;
  line-height: 1.3em;
+ text-align: center;
  text-transform: uppercase;
- position: relative
-;
- /*filter: blur(8px);
- -webkit-filter: blur(8px);*/
+ position: relative;
  display:block;
  margin-left: 15px;
 }
@@ -369,32 +353,7 @@ e gjelbert  #333300
  text-align: center;
  text-decoration-style: none;
  color: black;
- /*filter: blur(8px);
--webkit-filter: blur(8px);*/}
- /*.text {
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.4);
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}*/
-
-
-
-
-
-
-
-
-
+}
 
 
 
