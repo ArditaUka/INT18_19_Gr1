@@ -152,3 +152,16 @@ li
 {
 	color: white;
 }
+
+.buttoni1 {
+margin-left: 1200px;
+margin-bottom: 15px;
+padding: 15px;
+background-color: grey;
+border: 2px dashed lightgrey;
+text-decoration:line-through;
+font-size: 17px;
+text-color :black;
+
+
+}
