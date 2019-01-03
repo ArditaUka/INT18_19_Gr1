@@ -483,6 +483,14 @@ mark
  width: 350px;
  min-height:20px;
 }
+
+ #svgelem {
+            position: relative;
+            left: 50%;
+            -webkit-transform: translateX(-20%);
+            -ms-transform: translateX(-20%);
+            transform: translateX(-20%);
+         }
 .shkrimi h3{
   font-family: "Times New Roman";
   font-size: 28px;
@@ -596,7 +604,7 @@ width: 100%
   padding-right: 20px;
   padding-left: 20px;
   /*height: 240px;*/
-  margin-top: 70px;
+  margin-top: 20px;
   background-color: none;
   margin-right: 148px;
   border: 5px solid #0099ff;
@@ -693,4 +701,8 @@ width: 100%
   margin-bottom: 0px;
   font-size: 1.5em;
   font-style: italic ;
+}
+#katrorat{
+  margin-left: 47%;
+  margin-top: 20px;
 }
