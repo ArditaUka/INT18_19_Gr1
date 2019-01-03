@@ -157,10 +157,11 @@ li
 margin-left: 1200px;
 margin-bottom: 15px;
 padding: 15px;
-background-color: grey;
+
+background-image: radial-gradient(circle, red, green, blue);
 border: 2px dashed lightgrey;
 text-decoration:line-through;
 font-size: 17px;
-text-color :black;
-color:black;
+font-weight: bold;
+color:white;
 }
