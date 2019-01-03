@@ -11,6 +11,18 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/services.css">
 
+		<script>
+  window.onload=function() {
+    var p=document.getElementById("katrorat");
+    var p=p.getContext('2d');
+    p.fillStyle='#B478FF'; 
+    p.fillRect(5,5,40,40);           
+    p.fillStyle='rgba(0,255,0,0.5)';  
+    p.fillRect(10,10,40,40);    
+    p.fillStyle='#dadada';  
+    p.fillRect(15,15,40,40); 
+  }
+</script>
 
 	</head>
 
@@ -100,6 +112,11 @@
 				<div class="shkrimi">
 				<h3><b>Exoy services</b></h3>
 				<p>Exoy Tech Marketplace offers a comprehensive portfolio of services that support the full lifecycle of your assets. At every stage from planning, deployment, support to asset recovery, we offer the expertise and services you need to more accurately budget for IT expenses, deliver better service level agreements and generate greater end-user satisfaction. Let our unique offerings and expertise help you get the most out of your technology investment.</p>
+
+				 <svg id = "svgelem" height = "200" xmlns = "http://www.w3.org/2000/svg">
+         		<polyline points = "0,0 0,20 20,20 20,40 40,40 40,60" fill = "white" />
+      			</svg>
+
 			 </div>
 
 
@@ -129,6 +146,7 @@
                             <li>Premier Support</li>
                         </ul>
                 </div>        
+                <canvas id="katrorat" width="50" height="50"></canvas>
              <div class="warranty">
              	<a href="#"><img src="Images/razer.jpg" width="480" height="247.5"></a>
              	<div>
@@ -142,6 +160,7 @@
              	<u>all your data will be unshared.</u> </p>
              </div>
              </div>
+             
              <div class="customization">
              	<a href="#"><img src="Images/download.jpg" width="480" height="277.5"></a>
              	<div>
