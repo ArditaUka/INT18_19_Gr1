@@ -434,3 +434,51 @@ color:#0099ff;
 {
   border-color: #232323;
 }
+
+.portfolio{
+  
+  height: 450px;
+  background-image: url(../Images/bluebackground.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+}
+.portfolio p{
+  font-size: 50px;
+  color:#cfcfd1;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.fototbashk {
+  width: 100%;
+  margin-right: 0px;
+  background-image: url(../Images/port.jpg);
+  background-size: 10%:
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.fototbashk span{
+   display: flex;
+    margin-left: 23%;
+    padding-top: 40px;
+    width:671.5px;
+}
+
+.fotonr1{
+  flex: 44%;
+  padding: 5px;
+  padding-left: 0px;
+}
+.fotonr2{
+  flex: 56%;
+  padding: 5px;
+  padding-top: 114px;
+  padding-bottom: 30px;
+}
+.fotonr2 p{
+  height: 200px;
+}
