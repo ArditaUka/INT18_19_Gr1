@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html manifest="cache.appache">
 		<title>Exoy</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +10,21 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/protfolio.css">
 
+        <script>
+        function clickCounter() {
+        if(typeof(Storage) !== "undefined") {
+            if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+            } else {
+            localStorage.clickcount = 1;
+            }
+            document.getElementById("fjalia").innerHTML = "You have sent " + localStorage.clickcount + " E-mail(s).";
+            } else {
+            document.getElementById("fjalia").innerHTML = "Invalid in your browser!";
+            }
+            }
 
+        </script>
 
      
 
@@ -134,6 +147,7 @@
             grd.addColorStop(1,"lightgrey");
             ctx.fillStyle = grd;
             ctx.fillRect(0,10,390,250);
+
          </script>
 
         </div>
@@ -147,7 +161,9 @@
         <div class="submiti">
             <textarea name="subject" placeholder="Write something.." style="height:147px" id="teksti"></textarea>
             <br>
-            <input type="submit" value="Send" id="sendi"><br><br>
+            <input  onclick="clickCounter()" type="submit" value="Send" id="sendi"><br>
+            <div id="fjalia"></div>
+            <br>
         </div>
          </form>
          <div class="shkrimi">
@@ -227,7 +243,7 @@
                         <div class="contact">
                             <form method="get" action="http://randyconnolly.com/test/process.php">
                                 <p class="position">CONTACT US</p>
-                                <input type="text" name="Person" placeholder="Name" class="name"><br>
+                                <input type="text" name="Person" placeholder="Name" id="name"><br>
                                 <input type="text" name="Email" placeholder="Email" class="email"><br>
                                 <input type="text" name="Subject" placeholder="Subject" class="subject"><br>
                                 <textarea type="textarea" rows="10" name="Message" placeholder="Message" class="message"></textarea><br>

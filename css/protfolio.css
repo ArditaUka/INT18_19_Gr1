@@ -240,7 +240,7 @@ footer
 
 
 }
-.name
+#name
 {
   background-color: #232323;
   color: #989898;
@@ -571,7 +571,9 @@ mark
   height: 45px;
   float: left;
   margin-top: 3px;
+
 }
+
 #teksti{
   background-color: #ccd3e2;
   color: #989898;
