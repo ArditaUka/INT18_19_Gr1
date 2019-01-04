@@ -26,8 +26,32 @@
             document.getElementById("fjalia").innerHTML = "Invalid in your browser!";
              }
         }
+
+        function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
       
 </script>
+<style>
+#div1 {
+  width: 391px;
+  height: 70px;
+  /*padding: 10px;*/
+  /*border: 1px solid #aaaaaa;*/
+  background-color: lightblue;
+  margin-bottom: -10px;
+}
+</style>
 
      
 
@@ -136,10 +160,10 @@
         <div class="fotonr2">
          
   	    <p> &raquoExoy Tech Marketplace offers a comprehensive portfolio of services that support the full lifecycle of your assets. Now offerig the latest aspect of technology. With our modern staff and our modern devices, you will live a modern life!</p>
-        <img src="Images/portfolio2.jpg" alt="Our office" width="390px" height="254.124px"  style="width:100%">
+        <img src="Images/portfolio2.jpg" alt="Our office" id="drag1" width="390px" height="254.124px"  style="width:100%" draggable="true" ondragstart="drag(event)">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
-
-            <canvas id="myCanvas" width="390" height="206">      
+            <canvas id="myCanvas" width="390" height="148" ondrop="drop(event)" ondragover="allowDrop(event)">      
             </canvas>
          <script>
             var c = document.getElementById("myCanvas");

@@ -597,11 +597,17 @@ width: 100%
 .lista2 li{
   padding: 4px;
 }
-.warranty img{
+.warranty figure{
   float: left;
   margin-right: 50px;
+  margin-left: 0px;
+  margin-top: 0px;
   padding: 20px;
   padding-top: 70px;
+}
+.warranty figcaption{
+  font-size: 13px;
+  color: #0099ff;
 }
 .warranty{
   margin-left: 162px;
@@ -635,11 +641,17 @@ width: 100%
   font-style: italic ;
 }
 
-.customization img{
+.customization figure{
   float: right;
   margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 0px;
   padding: 20px;
   padding-top: 50px;
+}
+.customization figcaption{
+  font-size: 13px;
+  color: #0099ff;
 }
 .customization{
   margin-left: 162px;
@@ -671,11 +683,17 @@ width: 100%
   font-style: italic ;
 }
 
-.premier img{
+.premier figure{
   float: left;
   margin-right: 50px;
+  margin-left: 0px;
+  margin-top: 0px;
   padding: 20px;
   padding-top: 70px;
+}
+.premier figcaption{
+  font-size: 13px;
+  color: #0099ff;
 }
 .premier{
   margin-left: 162px;
