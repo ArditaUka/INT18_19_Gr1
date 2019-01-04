@@ -15,16 +15,19 @@
         if(typeof(Storage) !== "undefined") {
             if (localStorage.clickcount) {
             localStorage.clickcount = Number(localStorage.clickcount)+1;
-            } else {
+            } else  
+             {
             localStorage.clickcount = 1;
-            }
+             }
             document.getElementById("fjalia").innerHTML = "You have sent " + localStorage.clickcount + " E-mail(s).";
-            } else {
+             } 
+            else
+             {
             document.getElementById("fjalia").innerHTML = "Invalid in your browser!";
-            }
-            }
-
-        </script>
+             }
+        }
+      
+</script>
 
      
 
