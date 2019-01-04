@@ -154,7 +154,7 @@ li
 }
 
 .diV1{
-width: 900px;
+width: 250px;
 height: 250px;
 background-color: grey;
 border: 1px solid black;
@@ -163,8 +163,8 @@ margin-left: 25px;
 }
 
   .diV{
-  width: 900px;
-  height: 200px;
+  width: 250px;
+  height: 150px;
   background-color: grey;
   border: 1px solid black;
   margin-top: 10px;
@@ -213,4 +213,29 @@ margin-left: 25px;
   -webkit-transform: skewX(20deg);
    transform: skewX(20deg);
 
+}
+.Div {
+	width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 1px solid black;
+  margin-top: 70px;
+  padding: 20px;
+  margin-left: 50px;
+
+  -webkit-transform: rotateY(150deg);
+  transform: rotateY(150deg);
+}
+
+.Div1 {
+	width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 1px solid black;
+  margin-top: 70px;
+  padding: 20px;
+  margin-left: 50px;
+
+  -webkit-transform: rotateX(150deg);
+  transform: rotateX(150deg);
 }
