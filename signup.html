@@ -89,9 +89,10 @@
 			<input type="text" name="lname" placeholder="Last name" id="button"><br><br>
 			<input type="email" name="email" placeholder="Email" id="button"><br><br>
 			<input type="passwrod" name="passwrod" placeholder="Passwrod" id="button"><br><br>
-			<select id="ph"><option>+383</option><option>+386</option><option>+377</option></select>
+			<select id="ph"><datalist><option>+383</option><option>+386</option><option>+377</option></datalist>
+			</select>
 
-			<input type="number" name="num" placeholder="Enter your phone number" id="phone"><br><br>
+			<input type="number" name="num" placeholder="Enter your phone number" id="phone" pattern="\d{8}"><br><br>
 			<input type="radio" name="gender" id="rd">&nbsp;&nbsp;&nbsp;&nbsp;<span id="but">Male</span>
 			<input type="radio" name="gender" id="rd">&nbsp;&nbsp;&nbsp;&nbsp;<span id="but">Female</span><br><br>
 			<p style="color: white;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>

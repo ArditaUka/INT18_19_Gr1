@@ -10,7 +10,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/services.css">
-
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
   window.onload=function() {
     var p=document.getElementById("katrorat");
@@ -39,7 +40,59 @@
 //   document.getElementById('DJimage').src = DJimages[DJ];
 //   document.getElementById('DJimage').alt = DJimages[DJ];
 // }
+
+	$(document).ready(function(){
+		  $("#learn").click(function(){
+		    $("#show").slideToggle("slow");
+		  });
+		});
 		</script>
+
+
+		<style type="text/css">
+		#learn {
+			font-family: aries;
+			font-style: italic;
+			max-height: 20px;
+			width: 100px;
+		   padding: 5px;
+		   text-align: center;
+			text-decoration: none;
+			font-size: 12px;
+		   background-color: #e5eecc;
+		   border-radius:2px;
+		   margin-left: 60%;
+			margin-bottom: 8px;
+		}
+
+		#learn:hover {
+			font-family: aries;
+			height: 20px;
+			width: 100px;
+			padding: 5px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: bold;
+			background-color: #e5eecc;
+			margin-bottom: 8px;
+			border-radius:2px;
+			margin-left: 60%;
+
+		}
+
+		#show {
+			width: 1050px;
+		  padding-left:55px;
+		  padding-top: 50px;
+		  display: none;
+			text-decoration: none;
+			font-size: 1em;
+			font-family: arial;
+			
+		
+		}
+	</style>
 	</head>
 
 	<body id="Body">
@@ -179,6 +232,63 @@
              	an effective and efficient battery replacment.<br>
              	&raquo Before handing out your PC for repairments to our technicians, you are entitled to keep your Drive, therefore
              	<u>all your data will be unshared.</u> </p>
+             	<div id="learn" style="min-height: 20px">Learn more</div>
+             	<div id="show">
+             		<p> &raquo These are some of the products that we have a warranty policy for. There are a lot more, but just to give you an idea, refer to the table below.</p><br>
+             		<table border="1px"class="table"cellspacing="0.5" cellpadding="-5">
+             			<tr style="background-color: #7caeff">
+             				<th>Product </th>
+             				<th>Brand</th>
+             				<th>Warranty Time</th>
+             				<th><p>Warranty properties<p></th>
+
+             			</tr>
+             			<tr>
+             				<td>Mobile Phone</td>
+             				<td>Samsung</td>
+             				<td>1 year</td>
+             				<td><p>Battery change in case of a failure, before 1 year of use.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Laptop</td>
+             				<td>Lenovo</td>
+             				<td>2 years</td>
+             				<td><p>For every problem within two years, we provide service and part-replacment</p></td>
+             			</tr>
+             			<tr>
+             				<td>Laptop</td>
+             				<td>DELL</td>
+             				<td>3 years</td>
+             				<td><p>Compensates every damage that is not self-inflicted.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Camera</td>
+             				<td>Sony</td>
+             				<td>6 Months</td>
+             				<td><p>Lens failure is always covered.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Mobile Phone</td>
+             				<td>Huawei</td>
+             				<td>1 Year</td>
+             				<td><p>Full compensation, and battery replacment for the first 6 months.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Mobile Phone</td>
+             				<td>iPhone</td>
+             				<td>1.5 Year</td>
+             				<td><p>Screen replacement and service.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Camera</td>
+             				<td>Canon</td>
+             				<td>1 Year</td>
+							<td><p>Lens failure is always covered.</p></td>
+
+             			</tr>
+             		</table>
+
+             	</div>
              </article>
              </div>
              
