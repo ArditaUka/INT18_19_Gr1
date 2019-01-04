@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html manifest="cache.appache">
 	<head>
 		<title>Exoy</title>
 		<link href="https://fonts.googleapis.com/css?family=Niramit:300i,400,600&amp;subset=latin-ext,thai,vietnamese" rel="stylesheet">
@@ -31,7 +31,7 @@
 							<li><a href="https://twitter.com/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="https://www.pinterest.com/" class="pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
 							<li><a href="https://plus.google.com" class="googleplus" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-							<li><a href="#" class="rss"><i class="fas fa-rss" target="_blank"></i></a></li>
+							<li><a href="https://rss.com" class="rss" target="_blank"><i class="fas fa-rss"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -62,7 +62,7 @@
 			</div>
 			</li></a>
 			<a href="gallery.html" ><li>GALLERY</li></a>
-			<a href="protfolio.html" target="_blank"><li>PORTFOLIO</li></a>
+			<a href="protfolio.html"><li>PORTFOLIO</li></a>
 			<a href="#" target="_blank"><li class="dropdown">
 			WHY US
 			<div>
@@ -89,9 +89,10 @@
 			<input type="text" name="lname" placeholder="Last name" id="button"><br><br>
 			<input type="email" name="email" placeholder="Email" id="button"><br><br>
 			<input type="passwrod" name="passwrod" placeholder="Passwrod" id="button"><br><br>
-			<select id="ph"><option>+383</option><option>+386</option><option>+377</option></select>
+			<select id="ph"><datalist><option>+383</option><option>+386</option><option>+377</option></datalist>
+			</select>
 
-			<input type="number" name="num" placeholder="Enter your phone number" id="phone"><br><br>
+			<input type="number" name="num" placeholder="Enter your phone number" id="phone" pattern="\d{8}"><br><br>
 			<input type="radio" name="gender" id="rd">&nbsp;&nbsp;&nbsp;&nbsp;<span id="but">Male</span>
 			<input type="radio" name="gender" id="rd">&nbsp;&nbsp;&nbsp;&nbsp;<span id="but">Female</span><br><br>
 			<p style="color: white;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>

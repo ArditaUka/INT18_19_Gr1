@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html manifest="cache.appache">
 	<head>
 		<title>Exoy</title>
 		<link href="https://fonts.googleapis.com/css?family=Niramit:300i,400,600&amp;subset=latin-ext,thai,vietnamese" rel="stylesheet">
@@ -31,7 +31,7 @@
 							<li><a href="https://twitter.com/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="https://www.pinterest.com/" class="pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
 							<li><a href="https://plus.google.com" class="googleplus" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-							<li><a href="#" class="rss"><i class="fas fa-rss" target="_blank"></i></a></li>
+							<li><a href="https://rss.com" class="rss" target="_blank"><i class="fas fa-rss"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -63,7 +63,7 @@
 			</div>
 			</li></a>
 			<a href="gallery.html"><li>GALLERY</li></a>
-			<a href="protfolio.html" target="_blank"><li>PORTFOLIO</li></a>
+			<a href="protfolio.html"><li>PORTFOLIO</li></a>
 			<a href="#" target="_blank"><li class="dropdown">
 			WHY US
 			<div>
@@ -87,7 +87,7 @@
 		<form id="registration">
 
 			<input type="email" name="email" placeholder="Email" id="button"><br><br>
-			<input type="passwrod" name="passwrod" placeholder="Passwrod" id="button"><br><br>
+			<input type="passwrod" name="passwrod" placeholder="Passwrod" id="button" pattern=".{6,}" title="Password must contain at least 8 characters."><br><br>
 			<label style="color: white; margin-right: 150px;">
 	        <input type="checkbox" checked="checked" name="remember"> Remember me
 	     	</label><br><br>

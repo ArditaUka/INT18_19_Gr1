@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html manifest="cache.appache">
 <head>
 		<title>Exoy</title>
 		<meta charset="UTF-8">
@@ -10,11 +10,92 @@
 		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/services.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+  window.onload=function() {
+    var p=document.getElementById("katrorat");
+    var p=p.getContext('2d');
+    p.fillStyle='#B478FF'; 
+    p.fillRect(5,5,40,40);           
+    p.fillStyle='rgba(0,255,0,0.5)';  
+    p.fillRect(10,10,40,40);    
+    p.fillStyle='#dadada';  
+    p.fillRect(15,15,40,40); 
+  }
+
+//   var DJimages = [  // add path to directory if necessary
+//   "Images/bluebackground.jpg",
+//   "Images/bluebackground.png",
+//   "Images/backgroundB.jpg",
+//   "Images/BGround.jpg"  // NOTE: no comma after last entry
+// ];
+// function TODimage() {
+//   var now = new Date();
+//   hr = now.getHours();                               // alert(hr);  // for testing
+//   var DJ = 0;                                               // midnight to  5:59 am
+//   if ((hr >= 6) && (hr < 12)) { DJ = 1; }   // 6am to 11:59am
+//   if ((hr >= 12) && (hr < 18)) { DJ = 2; } // Noon to 5:59 pm
+//   if ((hr >= 18) && (hr < 24)) { DJ = 3; } // 6pm to midnight
+//   document.getElementById('DJimage').src = DJimages[DJ];
+//   document.getElementById('DJimage').alt = DJimages[DJ];
+// }
+
+	$(document).ready(function(){
+		  $("#learn").click(function(){
+		    $("#show").slideToggle("slow");
+		  });
+		});
+		</script>
 
 
+		<style type="text/css">
+		#learn {
+			font-family: aries;
+			font-style: italic;
+			max-height: 20px;
+			width: 100px;
+		   padding: 5px;
+		   text-align: center;
+			text-decoration: none;
+			font-size: 12px;
+		   background-color: #e5eecc;
+		   border-radius:2px;
+		   margin-left: 60%;
+			margin-bottom: 8px;
+		}
+
+		#learn:hover {
+			font-family: aries;
+			height: 20px;
+			width: 100px;
+			padding: 5px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: bold;
+			background-color: #e5eecc;
+			margin-bottom: 8px;
+			border-radius:2px;
+			margin-left: 60%;
+
+		}
+
+		#show {
+			width: 1050px;
+		  padding-left:55px;
+		  padding-top: 50px;
+		  display: none;
+			text-decoration: none;
+			font-size: 1em;
+			font-family: arial;
+			
+		
+		}
+	</style>
 	</head>
 
-	<body>
+	<body id="Body">
 		<header >
 			<div class="container">
 			<div class="header">
@@ -35,13 +116,14 @@
 							<li><a href="https://twitter.com/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="https://www.pinterest.com/" class="pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
 							<li><a href="https://plus.google.com" class="googleplus" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-							<li><a href="#" class="rss"><i class="fas fa-rss" target="_blank"></i></a></li>
+							<li><a href="https://rss.com" class="rss" target="_blank"><i class="fas fa-rss"></i></a></li>
 						</ul>
 				</div>
 			</div>
 		</div>	
 		</header>
 		<main>
+			
 		<div class="container">
 				<div class="main-top">
 			<nav>
@@ -64,7 +146,7 @@
 			</div>
 			</li></a>
 			<a href="gallery.html"><li>GALLERY</li></a>
-			<a href="protfolio.html" target="_blank"><li>PORTFOLIO</li></a>
+			<a href="protfolio.html"><li>PORTFOLIO</li></a>
 			<a href="#" target="_blank"><li class="dropdown">
 			WHY US
 			<div>
@@ -97,31 +179,37 @@
 			
 				
 				<img class="fotoja1" src="Images/Capture.png" alt="tastiere" height="460px" width="1200px" >
-				<div class="shkrimi">
+			
+				<section class="shkrimi">
 				<h3><b>Exoy services</b></h3>
 				<p>Exoy Tech Marketplace offers a comprehensive portfolio of services that support the full lifecycle of your assets. At every stage from planning, deployment, support to asset recovery, we offer the expertise and services you need to more accurately budget for IT expenses, deliver better service level agreements and generate greater end-user satisfaction. Let our unique offerings and expertise help you get the most out of your technology investment.</p>
-			 </div>
+
+				 <svg id = "svgelem" height = "200" xmlns = "http://www.w3.org/2000/svg">
+         		<polyline points = "0,0 0,20 20,20 20,40 40,40 40,60" fill = "white" />
+      			</svg>
+
+			 </section>
 
 
 			</div>
 				<div class="krejtlista">
 					<div class="ourservices">
-					  <h3 >Our services</h3>
+					  <h3><i>Our services</i></h3>
 					</div>
 
-                        <ul list-style="none" class="lista1">
+                        <ul list-style="none" id="lista1" >
                             <li>Latest technology</li>
                             <li>Costumization of our products</li>
                             <li>Warranty</li>
-                            <li>Hardware and OEM software support</li>  
+                            <li>Hardware and <abbr title="Original Equipment Manufacturer">OEM</abbr> software support</li>  
 
                         </ul>
                         <br><br>
                            <div class="comunication">
-                        		<h3>Comunication with our staff</h3>
+                        		<h3><i>Comunication with our staff<i></h3>
                         	</div>
 
-                        <ul class="lista2">
+                        <ul id="lista2">
 
                             <li>Cooperative staff</li>
                             <li>Personalized products</li>
@@ -129,9 +217,13 @@
                             <li>Premier Support</li>
                         </ul>
                 </div>        
+                <canvas id="katrorat" width="50" height="50"></canvas>
              <div class="warranty">
-             	<a href="#"><img src="Images/razer.jpg" width="480" height="247.5"></a>
-             	<div>
+             	<figure>
+             	<a href="gallery.html"><img src="Images/razer.jpg" width="480" height="247.5"></a>
+             	<figcaption>Razer laptops</figcaption>
+             </figure>
+             	<article>
              	<h4>Warranty</h4>
              	<p>&raquo With our warranty policy you can achieve maximum uptime and productivity. For every problem with your 
              	product, within two years of time, we encourage you to call us. Within a few days one of our technicians
@@ -139,11 +231,72 @@
              	&raquo In case of a battery failure within 1 year of purchase, we provide a replacement. Our technicians ensure
              	an effective and efficient battery replacment.<br>
              	&raquo Before handing out your PC for repairments to our technicians, you are entitled to keep your Drive, therefore
-             	all your data will be unshared. </p>
+             	<u>all your data will be unshared.</u> </p>
+             	<div id="learn" style="min-height: 20px">Learn more</div>
+             	<div id="show">
+             		<p> &raquo These are some of the products that we have a warranty policy for. There are a lot more, but just to give you an idea, refer to the table below.</p><br>
+             		<table border="1px"class="table"cellspacing="0.5" cellpadding="-5">
+             			<tr style="background-color: #7caeff">
+             				<th>Product </th>
+             				<th>Brand</th>
+             				<th>Warranty Time</th>
+             				<th><p>Warranty properties<p></th>
+
+             			</tr>
+             			<tr>
+             				<td>Mobile Phone</td>
+             				<td>Samsung</td>
+             				<td>1 year</td>
+             				<td><p>Battery change in case of a failure, before 1 year of use.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Laptop</td>
+             				<td>Lenovo</td>
+             				<td>2 years</td>
+             				<td><p>For every problem within two years, we provide service and part-replacment</p></td>
+             			</tr>
+             			<tr>
+             				<td>Laptop</td>
+             				<td>DELL</td>
+             				<td>3 years</td>
+             				<td><p>Compensates every damage that is not self-inflicted.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Camera</td>
+             				<td>Sony</td>
+             				<td>6 Months</td>
+             				<td><p>Lens failure is always covered.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Mobile Phone</td>
+             				<td>Huawei</td>
+             				<td>1 Year</td>
+             				<td><p>Full compensation, and battery replacment for the first 6 months.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Mobile Phone</td>
+             				<td>iPhone</td>
+             				<td>1.5 Year</td>
+             				<td><p>Screen replacement and service.</p></td>
+             			</tr>
+             			<tr>
+             				<td>Camera</td>
+             				<td>Canon</td>
+             				<td>1 Year</td>
+							<td><p>Lens failure is always covered.</p></td>
+
+             			</tr>
+             		</table>
+
+             	</div>
+             </article>
              </div>
-             </div>
+             
              <div class="customization">
-             	<a href="#"><img src="Images/download.jpg" width="480" height="277.5"></a>
+             	<figure>
+             	<a href="gallery.html"><img src="Images/download.jpg" width="480" height="277.5"></a>
+             	<figcaption>Special color keyboard</figcaption>
+             </figure>
              	<div>
              	<h4>Customization</h4>
              	<p>&nbsp &nbsp Customize your personal device, or product with all the specifications of your desire, our
@@ -158,7 +311,10 @@
              </div>
              </div>
              <div class="premier">
+             	<figure>
              	<a href="#"><img src="Images/tech.jpg" width="480" height="277.5"></a>
+             	<figcaption>Easy travel laptop.</figcaption>
+             </figure>
              	<div>
              	<h4>Premier Support</h4>
              	<p>&raquo We understand IT needs to increase efficiency, reduce complexities, and keep your end users up and running. We know your end users expect fast and frustration-free support. <br>
