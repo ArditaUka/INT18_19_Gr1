@@ -161,9 +161,9 @@ function drop(ev) {
          
   	    <p> &raquoExoy Tech Marketplace offers a comprehensive portfolio of services that support the full lifecycle of your assets. Now offerig the latest aspect of technology. With our modern staff and our modern devices, you will live a modern life!</p>
         <img src="Images/portfolio2.jpg" alt="Our office" id="drag1" width="390px" height="254.124px"  style="width:100%" draggable="true" ondragstart="drag(event)">
-        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" ondrop="drop(event)" ondragover="allowDrop(event)" style="display: flex;"></div>
 
-            <canvas id="myCanvas" width="390" height="148" ondrop="drop(event)" ondragover="allowDrop(event)">      
+            <canvas id="myCanvas" width="390" height="148" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" style="-webkit-animation-play-state: paused;">      
             </canvas>
          <script>
             var c = document.getElementById("myCanvas");
@@ -181,12 +181,13 @@ function drop(ev) {
        </span>
    
         <div class="forma">
-          <form class= "formpart" action="mailto:exoy4@outlook.com">
+          <form class= "formpart" action="mailto:exoy4@outlook.com" autocomplete="on">
             <input type="text" name="fname" placeholder="First name" id="button"><br><br>
             <input type="text" name="lname" placeholder="Last name" id="button"><br><br>
             <input type="email" name="email" placeholder="Email" id="button"><br><br>
+            <keygen name="emaili">
         <div class="submiti">
-            <textarea name="subject" placeholder="Write something.." style="height:147px" id="teksti"></textarea>
+            <textarea name="subject" placeholder="Write something.." style="height:147px" id="teksti" autocomplete="off"></textarea>
             <br>
             <input  onclick="clickCounter()" type="submit" value="Send" id="sendi"><br>
             <div id="fjalia"></div>
