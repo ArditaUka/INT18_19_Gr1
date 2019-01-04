@@ -11,7 +11,32 @@
 		<meta charset="utf-8">
 	<script type="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="jquery-1.11.2.min.js"></script>
-	
+
+		<script>
+
+		$(document).ready(function(){
+$("button").hover(function(){
+	$("a").hover();
+});
+});
+
+		</script>
+		<style>
+		.button
+		{
+		padding-top:
+		color:white;
+		float: right;
+		/*margin-bottom: 100px;*/
+		background-color: #0099ff;
+		border-radius: 8px;
+		vertical-align: center;
+		width: 279px;
+		height: 58px;
+		outline: none;
+		}
+		</style>
+
 	</head>
 	<body>
 		<header >
@@ -156,7 +181,7 @@ BIONZ X Image Processor</p>
 						<h1>Experience a new and vivid tech generation!</h1>
 						<h3 style="font-size: 1.2em">Try our services today, you wont regret it!</h3>
 					</div>
-					<button class="button"><a href="#kontakt">Contact us today!</a></button>
+					<button class="button" ><a href="#kontakt" onclick="alert('Give your personal informations')">Contact us today!</a></button>
 				</div>
 			</div>
 		</main>

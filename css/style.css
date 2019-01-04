@@ -622,19 +622,7 @@ margin-bottom: 28px;
 
 
 }
-.button
-{
-padding-top:
-color:white;
-float: right;
-/*margin-bottom: 100px;*/
-background-color: #0099ff;
-border-radius: 8px;
-vertical-align: center;
-width: 279px;
-height: 58px;
-outline: none;
-}
+
 .button a
 {
 text-decoration:none;
