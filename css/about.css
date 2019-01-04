@@ -46,17 +46,21 @@ display: flex;
   display: flex;
   list-style-type: none;
 }
-.header-bottom ul li
-{
-  padding: 10px 4px;
+.header-bottom ul li {
+  padding: 0;
 }
-.header-bottom ul li a
-{
-  padding: 6px;
-  color: white;
-  text-align: center;
-  background: #787878;
-  border-radius: 50%;
+.header-bottom ul li a {
+    padding: 0;
+    color: white;
+    text-align: center;
+    background: #787878;
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    text-align: center;
+    line-height: 30px;
 }
 .linkedIn:hover
 {
@@ -82,8 +86,7 @@ display: flex;
 
 /************************************2*******************************************/
 
-.main-top li:hover
-{
+.main-top li:hover, .main-top li.active {
   border-bottom: 3px solid #0099ff;
 }
 .main-top
@@ -433,4 +436,8 @@ color:#0099ff;
 {
   width: 50%;
   color: black;
+}
+.img 
+{
+  margin-left: 200px;
 }
