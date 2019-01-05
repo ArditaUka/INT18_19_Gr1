@@ -89,6 +89,9 @@ header
   display: flex;
   justify-content: space-between;
 }
+.main-top li:hover, .main-top li.active {
+    border-bottom: 3px solid #0099ff;
+}
 .main-top {
     padding-top: 0;
 }
@@ -113,7 +116,7 @@ header
 }
 
 .main-top ul li.active a {
-    font-weight: 600;
+    opacity: 0.5;
 }
 
 .main-top ul a li:hover {
