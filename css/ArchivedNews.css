@@ -86,11 +86,15 @@ display: flex;
   background-color: #ee802f;
 }
 
-
+.main-top li:hover, .main-top li.active {
+    border-bottom: 3px solid #0099ff;
+}
 .main-top {
     padding-top: 0;
 }
-
+.main-top li:hover {
+    border-bottom: 3px solid #0099ff;
+}
 .main-top ul {
     list-style-type: none;
     display: flex;
@@ -102,7 +106,7 @@ display: flex;
     margin: 8px 0;
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: white;
 }
 
 .main-top ul li {
@@ -111,7 +115,7 @@ display: flex;
 }
 
 .main-top ul li.active a {
-    font-weight: 600;
+    opacity: 0.5;
 }
 
 .main-top ul a li:hover {
