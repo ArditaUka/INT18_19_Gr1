@@ -84,7 +84,6 @@ header {
 .pinterest:hover {
     background-color: #bd081c;
 }
-
 .googleplus:hover {
     background-color: #db4437;
 }
@@ -198,6 +197,7 @@ header {
     color: black;
     transition: 0.5s ease;
 }
+
 
 .dropdown div a:hover {
     background-color: #0099ff;
