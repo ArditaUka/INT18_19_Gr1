@@ -158,7 +158,7 @@ margin-left: 1200px;
 margin-bottom: 15px;
 padding: 15px;
 
-background-image: radial-gradient(circle, lightred, lightgreen, lightblue);
+background-image: radial-gradient(circle, lightblue, lightgreen,  blue);
 border: 2px solid lightgrey;
 text-decoration:none;
 font-size: 17px;
