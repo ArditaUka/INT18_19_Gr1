@@ -244,6 +244,30 @@ display: flex;
 {
   width: 100%;
 }
+.dot 
+{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  border: 3px solid black;
+  transform: scale(0.8);
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 .main1
 {
   padding-top: 100px;
