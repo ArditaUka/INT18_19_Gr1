@@ -82,65 +82,109 @@ display: flex;
 
 /************************************2*******************************************/
 
-.main-top li:hover
-{
-  border-bottom: 3px solid #0099ff;
-}
-.main-top
-{
-padding-top: 0px;
-}
-.main-top ul
-{
-list-style-type: none;
-display: flex;
-padding-left: 0;
-margin-bottom: 0px;
-}
-.main-top ul a
-{
-  margin: 8px;
-  text-decoration: none;
-  display: inline-block;
-  color: black;
-}
-.main-top ul a li:hover
-{
-color: #9f9f9f;
-transition: 0.4s ease;
-}
-.dropdown div
-{
-  display: none;
+.main-top {
+    padding-top: 0;
 }
 
-.dropdown:hover div 
-{
+.main-top ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.main-top ul a {
+    margin: 8px 0;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.main-top ul li {
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.main-top ul li.active a {
+    font-weight: 600;
+}
+
+.main-top ul a li:hover {
+    color: #9f9f9f;
+    transition: 0.4s ease;
+}
+
+.main-top .dropdown_menu {
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+    border: 1px solid #e7edf0;
+    position: absolute;
+    z-index: 99;
+    background-color: #fff;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    display: inline-block;
+    opacity: 0;
+    max-width: 170px;
+    transform: translateY(20px);
+    visibility: hidden;
+}
+
+.main-top .dropdown_menu li {
+    display: inline-block;
+    width: 100%;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+}
+
+.main-top .dropdown_menu li:hover, .main-top .dropdown_menu li.active {
+    border-bottom: 0;
+    background-color: whitesmoke;
+}
+
+.main-top .dropdown_menu li a {
+    margin: 0;
+    padding: 6px 8px;
+    width: 100%;
+    float: left;
+    font-size: 14px;
+}
+
+.dropdown:hover .dropdown_menu {
+    display: inline-block;
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.dropdown div {
+    display: none;
+}
+
+.dropdown:hover div {
     display: flex;
     flex-direction: column;
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
 }
-.dropdown div a
-{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  width: auto;
-  height: 30px;
-  padding-top: 2px;
-  padding-left: 2px;
-  text-decoration: none;
-  color: black;
-  transition: 0.5s ease;
+
+.dropdown div a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: auto;
+    height: 30px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
 }
 
-.dropdown div a:hover
-{
-  background-color: #0099ff;
-  color: white;
-  cursor: pointer;
-  transition: 0.5s ease;
+.dropdown div a:hover {
+    background-color: #0099ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 /*===================================2==================================*/
 .maintop1
