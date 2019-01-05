@@ -240,7 +240,7 @@ footer
 
 
 }
-#name
+.name
 {
   background-color: #232323;
   color: #989898;
@@ -292,6 +292,7 @@ footer
   font-size: 14px;
   outline: none;
 }
+
 .name:hover
 {
   transform: scale(1.03);
