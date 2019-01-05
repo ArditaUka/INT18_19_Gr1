@@ -68,7 +68,7 @@
 								<div>
 									<a href="introduction.html">Introduction</a>
 									<a href="customers.html">Costumers</a>
-									<a href="#">Security</a>
+									<a href="security.html">Security</a>
 									<a href="#">Special Offer</a>
 									<a href="#">News and Information</a>
 									<a href="#">Partners</a>
@@ -79,82 +79,9 @@
 
 					</nav>
 				</div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="mainproject.htm">
-                            HOME
-                        </a>
-                    </li>
-                    <li>
-                        <a href="about.html">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="company.html">COMPANY</a>
-                    </li>
-                    <li>
-                        <a href="services.html">SERVICES</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="products.html">
-                            PRODUCTS
-                        </a>
-                        <ul class="dropdown_menu">
-                            <li>
-                                <a href="phones.html">Phones</a>
-                            </li>
-                            <li>
-                                <a href="https://swappa.com/laptops">Laptops</a>
-                            </li>
-                            <li>
-                                <a href="https://swappa.com/cameras">Cameras</a>
-                            </li>
-                            <li>
-                                <a href="games.html">Games</a>
-                            </li>
-                            <li>
-                                <a href="https://swappa.com/buy/tablets">Tablets</a>
-                            </li>
-                            <li>
-                                <a href="https://swappa.com/wearables">Watches</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="gallery.html">GALLERY</a>
-                    </li>
-                    <li>
-                        <a href="protfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="introduction.html">
-                            WHY US
-                        </a>
-                        <ul class="dropdown_menu">
-                            <li>
-                                <a href="introduction.html">Introduction</a>
-                            </li>
-                            <li>
-                                <a href="customers.html">Costumers</a>
-                            </li>
-                            <li>
-                                <a href="security.html">Security</a>
-                            </li>
-                            <li>
-                                <a href="special-offer.html">Special Offer</a>
-                            </li>
-                            <li>
-                                <a href="news.html">News and Information</a>
-                            </li>
-                            <li>
-                                <a href="partners.html">Partners</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </nav>
+            
         </div>
+        <div class="container">
 				<div class="maintop1">
 					<div class="maintop2">
 
@@ -207,6 +134,45 @@
 					<p class="transpa">Tetris Effect is a brilliant and forward-thinking new take on an old and deeply familiar classic. It’s a curious combination of relaxation and extreme stress, often swerving abruptly from one right into the other, and surrounding myself in it through virtual reality and headphones makes it even more powerful and evocative.  <br>  It could use some more variety in its music, and be a bit more esoteric and surreal with its imagery, but it’s still a gorgeous, sometimes glorious vision, and a true VR stand-out.bt. <br><br> <button style="background-color: #0099ff; border-radius: 5px; outline: none; padding: 5px;"><a href="tetris.html" target="_blank" style="text-decoration: none; color: white;">PLAY IT NOW</a></button></p>
 				</div>
 			</div>
+
+			<div class="container">
+			<button onclick="getLocation()" style="color: white; background-color: #0099ff; border-radius: 9px; padding: 10px;">Click the button to get your coordinates</button>
+			
+				<p id="demo"></p>
+				</div>
+				<script>
+				var x = document.getElementById("demo");
+
+				function getLocation() {
+				  if (navigator.geolocation) {
+				    navigator.geolocation.getCurrentPosition(showPosition, showError);
+				  } else { 
+				    x.innerHTML = "Geolocation is not supported by this browser.";
+				  }
+				}
+
+				function showPosition(position) {
+				  x.innerHTML = "Latitude: " + position.coords.latitude + 
+				  "<br>Longitude: " + position.coords.longitude;
+				}
+
+				function showError(error) {
+				  switch(error.code) {
+				    case error.PERMISSION_DENIED:
+				      x.innerHTML = "User denied the request for Geolocation."
+				      break;
+				    case error.POSITION_UNAVAILABLE:
+				      x.innerHTML = "Location information is unavailable."
+				      break;
+				    case error.TIMEOUT:
+				      x.innerHTML = "The request to get user location timed out."
+				      break;
+				    case error.UNKNOWN_ERROR:
+				      x.innerHTML = "An unknown error occurred."
+				      break;
+				  }
+				}
+				</script>
 			<!-- THE END -->
 			<footer>
 				<div class="footer">
