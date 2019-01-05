@@ -3,7 +3,7 @@ body, html
 font-family: 'Titillium Web', sans-serif;
 padding: 0;
 margin: 0;
-background-color: #553d67;
+background-color: #05386b;
 }
 header
 {
@@ -434,8 +434,8 @@ color:#0099ff;
 }
 .gall:hover
 {
-  border: 2px solid #0099ff;
-  border-radius: 3px;
+  border: 6px solid #0099ff;
+  border-radius: 25px;
   transform: scale(1.02);
 }
 .firstrow img
@@ -453,7 +453,8 @@ color:#0099ff;
 }
 .firstrow:active , .secondrow:active, .thirdrow:active, .fourthrow:active
 {
-  border: 2px solid #0099ff;
+  border: 3px solid #0099ff;
+  border-radius: 20px;
   transition: 0.3s ease;
 }
 .gallery
