@@ -12,81 +12,75 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
-		  $("#statik").click(function(){
-		    $("#levizes").slideDown(5000);
-		  });
-		  $("#stop").click(function(){
-		    $("#levizes").stop();
-		  });
+		$("#statik").click(function(){
+		$("#levizes").slideDown(5000);
+		});
+		$("#stop").click(function(){
+		$("#levizes").stop();
+		});
 		});
 		$(document).ready(function(){
-  $("button").click(function(){
-    $("#diV1").fadeIn();
+		$("button").click(function(){
+		$("#diV1").fadeIn();
 		$("#diV2").fadeIn(4000);
-    $("#diV3").fadeIn("slow");
-
-  });
-});
-$(document).ready(function(){
-  $("#diV6").click(function(){
-    $("p").hide("slow", function(){
-      alert("The paragraph is hidden");
-    });
-  });
-});
-$(document).ready(function(){
-  $("#p1").click(function(){
-    alert("Text: " + $("#teksti").text());
-  });
-});
-$(document).ready(function(){
-$("#p2").click(function(){
-	 $("#tekst2").val("AAAAAAAAAAAAAa");
- });
-});
-$(document).ready(function(){
-	$("#p3").click(function(){
-    $("ol").append("<li>AAAAAAAAAAAAAAAAAAAAa</li>");
-  });
-});
-$(document).ready(function(){
-  $("#P4").click(function(){
-    $("#diV8").remove();
-  });
-});
+		$("#diV3").fadeIn("slow");
+		});
+		});
+		$(document).ready(function(){
+		$("#diV6").click(function(){
+		$("p").hide("slow", function(){
+		alert("The paragraph is hidden");
+		});
+		});
+		});
+		$(document).ready(function(){
+		$("#p1").click(function(){
+		alert("Text: " + $("#teksti").text());
+		});
+		});
+		$(document).ready(function(){
+		$("#p2").click(function(){
+		$("#tekst2").val("AAAAAAAAAAAAAa");
+		});
+		});
+		$(document).ready(function(){
+		$("#p3").click(function(){
+		$("ol").append("<li>AAAAAAAAAAAAAAAAAAAAa</li>");
+		});
+		});
+		$(document).ready(function(){
+		$("#P4").click(function(){
+		$("#diV8").remove();
+		});
+		});
 		</script>
 		<style>
-		 #statik {
-		  padding: 5px;
-		  font-size: 18px;
-		  text-align: center;
-		  background-color: #555;
-		  color: white;
-		  border: solid 1px #666;
-		  border-radius: 3px;
+		#statik {
+		padding: 5px;
+		font-size: 18px;
+		text-align: center;
+		background-color: #555;
+		color: white;
+		border: solid 1px #666;
+		border-radius: 3px;
 		}
-
 		#levizes {
 			font-family: ourfont;
-		  padding: 50px;
-		  display: none;
+		padding: 50px;
+		display: none;
 			padding: 5px;
-		  font-size: 18px;
-		  text-align: center;
-		  background-color: #555;
-		  color: white;
-		  border: solid 1px #666;
-		  border-radius: 3px;
+		font-size: 18px;
+		text-align: center;
+		background-color: #555;
+		color: white;
+		border: solid 1px #666;
+		border-radius: 3px;
 		}
 		@font-face {
-		 font-family: ourfont;
-		 src:  url('https://fonts.googleapis.com/css?family=Lora&amp;subset=vietnamese');
-		 }
+		font-family: ourfont;
+		src:  url('https://fonts.googleapis.com/css?family=Lora&amp;subset=vietnamese');
+		}
 		</style>
-
-
-
-
 	</head>
 	<body>
 		<header >
@@ -100,7 +94,6 @@ $(document).ready(function(){
 								<a href="ArchivedNews.html" target="_blank"><li>RSS Feeds |</li></a>
 								<a href="#" target="_blank"><li>Archived News</li></a>
 							</ul>
-
 						</nav>
 					</div>
 					<div class="header-bottom">
@@ -115,102 +108,94 @@ $(document).ready(function(){
 				</div>
 			</div>
 		</header>
-
-
 		<main>
-
 			<div class="container">
-
-			<div class="main-top">
-			<nav>
-			<ul>
-
-			<a href="mainproject.htm"><li>HOME</li></a>
-			<a href="about.html"><li>ABOUT</li></a>
-			<a href="company.html"><li>COMPANY</li></a>
-			<a href="services.html"><li>SERVICES</li></a>
-			<a href="#"><li class="dropdown">
-			PRODUCTS
-			<div>
-				<a href="phones.html">Phones</a>
-				<a href="#">Laptops</a>
-				<a href="#">Cameras</a>
-				<a href="games.html">Games</a>
-				<a href="#">Tablets</a>
-				<a href="#">Watches</a>
+				<div class="main-top">
+					<nav>
+						<ul>
+							<a href="mainproject.htm"><li>HOME</li></a>
+							<a href="about.html"><li>ABOUT</li></a>
+							<a href="company.html"><li>COMPANY</li></a>
+							<a href="services.html"><li>SERVICES</li></a>
+							<a href="#"><li class="dropdown">
+								PRODUCTS
+								<div>
+									<a href="phones.html">Phones</a>
+									<a href="#">Laptops</a>
+									<a href="#">Cameras</a>
+									<a href="games.html">Games</a>
+									<a href="#">Tablets</a>
+									<a href="#">Watches</a>
+								</div>
+							</li></a>
+							<a href="gallery.html"><li>GALLERY</li></a>
+							<a href="protfolio.html"><li>PORTFOLIO</li></a>
+							<a href="#" target="_blank"><li class="dropdown">
+								WHY US
+								<div>
+									<a href="introduction.html">Introduction</a>
+									<a href="#">Costumers</a>
+									<a href="#">Security</a>
+									<a href="#">Special Offer</a>
+									<a href="#">News and Information</a>
+									<a href="#">Partners</a>
+								</div>
+							</li></a>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			</li></a>
-			<a href="gallery.html"><li>GALLERY</li></a>
-			<a href="protfolio.html"><li>PORTFOLIO</li></a>
-			<a href="#" target="_blank"><li class="dropdown">
-			WHY US
-			<div>
-				<a href="introduction.html">Introduction</a>
-				<a href="#">Costumers</a>
-				<a href="#">Security</a>
-				<a href="#">Special Offer</a>
-				<a href="#">News and Information</a>
-				<a href="#">Partners</a>
+			<div style="margin:35px;">
+				<h1>Future Technology</h1>
+				<img src="Images/futureT.jpg" alt="Samsung" style="width:600px;" >
+				<h3>Floating farms, brain wave passwords, and coffee-powered cars are just some of the incredible inventions and innovations that will shape our future.
 			</div>
-			</li></a>
-
-			</ul>
-
-			</nav>
-			</div>
-</div>
-<div style="margin:35px;">
-<h1>Future Technology</h1>
-<img src="Images/futureT.jpg" alt="Samsung" style="width:600px;" >
-<h3>Floating farms, brain wave passwords, and coffee-powered cars are just some of the incredible inventions and innovations that will shape our future.
-</div>
-<div style="margin:30px">
-<audio controls>
-	            <source src="Images\Total Digital Security - What We Do - 1 Minute Animation.mp3" type="audio/mpeg">
-	        </audio>
-<iframe width="1200" height="600" src="Images\Future Technology - Our Digital World 2020.mp4?autoplay=0" >
-</iframe>
-<div>
-<button id="stop"> Stop </button>
-<div id="statik">Future technology:some ideas about to change our world</div>
-<div id="levizes"><img src="Images/future1.jpg"></img>
-<h5>NASA has challenged designers to develop a conventional drone to work inside a space station, navigating with no ‘up’ or ‘down’. The winning design, ArachnoBeeA, would use cameras and tiny beacons to manoeuvre its way around. How popular drones would be in such a confined space is a different question.</h5>
-</div>
-</div>
-<button id="div1"> Stop </button>
-<div>
-	<div id="diV1" style="width:600px;height:400px;display:none;background-color:lightblue;"><img src="Images/future1.jpg" style="width:580px;height:280px; margin-left:10px; margin-top:10px"></img>
-	<h5>NASA has challenged designers to develop a conventional drone to work inside a space station, navigating with no ‘up’ or ‘down’. The winning design, ArachnoBeeA, would use cameras and tiny beacons to manoeuvre its way around. How popular drones would be in such a confined space is a different question.</h5>
-</div>
-<div>
-	<div id="diV2" style="width:600px;height:400px;display:none;background-color:lightgreen;"><img src="Images/future1.jpg" style="width:580px;height:280px; margin-left:10px; margin-top:10px"></img>
-	<h5>NASA has challenged designers to develop a conventional drone to work inside a space station, navigating with no ‘up’ or ‘down’. The winning design, ArachnoBeeA, would use cameras and tiny beacons to manoeuvre its way around. How popular drones would be in such a confined space is a different question.</h5>
-</div>
-</div>
-<div>
-	<div id="diV3" style="width:600px;height:400px;display:none;background-color:lightgrey;"><img src="Images/future1.jpg" style="width:580px;height:280px; margin-left:10px; margin-top:10px"></img>
-	<h5>NASA has challenged designers to develop a conventional drone to work inside a space station, navigating with no ‘up’ or ‘down’. The winning design, ArachnoBeeA, would use cameras and tiny beacons to manoeuvre its way around. How popular drones would be in such a confined space is a different question.</h5>
-</div>
-</div>
-<div id="diV6"><img src="Images/future1.jpg" style="width:580px;height:280px; margin-left:10px; margin-top:10px">
-<p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-</div>
-<p id="teksti">AAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-
-<button id="p1">AAAAAAAAAAAAAAAAAAa</button>
-<p>Input field: <input type="text" id="tekst2" value="AAAAAAAAAAAAAAAAAAa"></p>
-<button id="p2">AAAAAAAAAAAAAA</button>
-<ol>
-  <li>AAAAAAAAAAAAAA</li>
-  <li>AAAAAAAAAAAAAAAaa</li>
-  <li>AAAAAAAAAAAAAAa</li>
-</ol>
-<button id="p3">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</button>
-<div>
-<button id="P4">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</button>
-<div id="diV8" style="height:200px;width:350px;border:1px solid black;background-color:lightblue;">
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-<p>BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.</p>
-</div>
-</body>
-</html>
+			<div style="margin:30px">
+				<audio controls>
+					<source src="Images\Total Digital Security - What We Do - 1 Minute Animation.mp3" type="audio/mpeg">
+				</audio>
+				<iframe width="1200" height="600" src="Images\Future Technology - Our Digital World 2020.mp4?autoplay=0" >
+				</iframe>
+				<div>
+					<button id="stop"> Stop </button>
+					<div id="statik">Future technology:some ideas about to change our world</div>
+					<div id="levizes"><img src="Images/future1.jpg"></img>
+						<h5>NASA has challenged designers to develop a conventional drone to work inside a space station, navigating with no ‘up’ or ‘down’. The winning design, ArachnoBeeA, would use cameras and tiny beacons to manoeuvre its way around. How popular drones would be in such a confined space is a different question.</h5>
+					</div>
+				</div>
+				<button id="div1"> Stop </button>
+				<div>
+					<div id="diV1" style="width:600px;height:400px;display:none;background-color:lightblue;"><img src="Images/future1.jpg" style="width:580px;height:280px; margin-left:10px; margin-top:10px"></img>
+						<h5>NASA has challenged designers to develop a conventional drone to work inside a space station, navigating with no ‘up’ or ‘down’. The winning design, ArachnoBeeA, would use cameras and tiny beacons to manoeuvre its way around. How popular drones would be in such a confined space is a different question.</h5>
+					</div>
+					<div>
+						<div id="diV2" style="width:600px;height:400px;display:none;background-color:lightgreen;"><img src="Images/future1.jpg" style="width:580px;height:280px; margin-left:10px; margin-top:10px"></img>
+							<h5>NASA has challenged designers to develop a conventional drone to work inside a space station, navigating with no ‘up’ or ‘down’. The winning design, ArachnoBeeA, would use cameras and tiny beacons to manoeuvre its way around. How popular drones would be in such a confined space is a different question.</h5>
+						</div>
+					</div>
+					<div>
+						<div id="diV3" style="width:600px;height:400px;display:none;background-color:lightgrey;"><img src="Images/future1.jpg" style="width:580px;height:280px; margin-left:10px; margin-top:10px"></img>
+							<h5>NASA has challenged designers to develop a conventional drone to work inside a space station, navigating with no ‘up’ or ‘down’. The winning design, ArachnoBeeA, would use cameras and tiny beacons to manoeuvre its way around. How popular drones would be in such a confined space is a different question.</h5>
+						</div>
+					</div>
+					<div id="diV6"><img src="Images/future1.jpg" style="width:580px;height:280px; margin-left:10px; margin-top:10px">
+						<p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+					</div>
+					<p id="teksti">AAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+					<button id="p1">AAAAAAAAAAAAAAAAAAa</button>
+					<p>Input field: <input type="text" id="tekst2" value="AAAAAAAAAAAAAAAAAAa"></p>
+					<button id="p2">AAAAAAAAAAAAAA</button>
+					<ol>
+						<li>AAAAAAAAAAAAAA</li>
+						<li>AAAAAAAAAAAAAAAaa</li>
+						<li>AAAAAAAAAAAAAAa</li>
+					</ol>
+					<button id="p3">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</button>
+					<div>
+						<button id="P4">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</button>
+						<div id="diV8" style="height:200px;width:350px;border:1px solid black;background-color:lightblue;">
+							AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+							<p>BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.</p>
+						</div>
+					</body>
+				</html>

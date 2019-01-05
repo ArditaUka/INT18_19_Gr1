@@ -9,129 +9,113 @@
             display: inline-block;
         }
         .score{
-            font-size: 25px;
-            font-weight: bold;
-            font-family: monospace;
-            text-align: center;
-            color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: monospace;
+        text-align: center;
+        color: white;
         }
         canvas
         {
-            display: block;
-            margin:0 auto;
-            border: solid .3em #fff;
-   		 	height: 78vh;
+        display: block;
+        margin:0 auto;
+        border: solid .3em #fff;
+                height: 78vh;
         }
         body
         {
-            background: #202028;
+        background: #202028;
         }
         .colon
         {
-            display: flex;
+        display: flex;
         }
         .col
         {
-            width: 40%;
+        width: 40%;
         }
         .btn
         {
-          outline: none;
-          background-color: #0099ff;
-          border: none;
-          border-radius: 5px;
-          color: white;
-          padding: 12px;
-          margin: 100px 100px;
-          width: 200px;
-          font-size: 20px;
+        outline: none;
+        background-color: #0099ff;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 12px;
+        margin: 100px 100px;
+        width: 200px;
+        font-size: 20px;
         }
         #e1, #e2, #e3, #e4
         {
-            display: none;
-            color: white;
-            padding-left:90px;
-            font-size: 20px;
+        display: none;
+        color: white;
+        padding-left:90px;
+        font-size: 20px;
         }
-	</style>
-
-    <script>
-        function rules() 
-                {
-                  var p = document.getElementById("e1");
-                  var q = document.getElementById("e2");
-                  var r = document.getElementById("e3");
-                  var s = document.getElementById("e4");
-                  p.style.display = "block"; 
-                  q.style.display = "block";
-                  r.style.display = "block";
-                  s.style.display = "block";    
-                }
-    </script>
-</head>
-<body>
-	
-	<h1 align="center" style="color: #0099ff; margin-right: 80px;text-decoration: underline;text-shadow: white -3px 0px 3px;text-transform: uppercase; font-size: 35px; letter-spacing: 4px;">TETRIS</h1>
-
-    <div class="colon">
-     
-        <div class="col">
-            <button class="btn"  onclick="rules()">HOW TO PLAY</button>
-            
-            <p id="e1">Press &larr; to move to the left.</p>    
-            <p id="e2">Press &uarr; to rotate the tetrominoes.</p> 
-            <p id="e3">Press &rarr; to move to the right.</p> 
-            <p id="e4">Press &darr; to speed up.</p>       
-        </div>
-
-
-        <div class="col">
-
-                <canvas id="tetris" width="200" height="400"></canvas>
-
-                <div class="score">
-                            Score : <div id="score">0</div>
-                </div>
-        </div>
-
+        </style>
+        <script>
+        function rules()
+        {
+        var p = document.getElementById("e1");
+        var q = document.getElementById("e2");
+        var r = document.getElementById("e3");
+        var s = document.getElementById("e4");
+        p.style.display = "block";
+        q.style.display = "block";
+        r.style.display = "block";
+        s.style.display = "block";
+        }
+        </script>
+    </head>
+    <body>
         
-
-        <div class="col"> 
-            <svg width="500" height="500">
-
-
-                <!-- BODY -->
-            <circle cx="300" cy="190" r="40" stroke="black" stroke-width="2" fill="white" />    
-            <circle cx="300" cy="280" r="60" stroke="black" stroke-width="2" fill="white" />
-            <circle cx="300" cy="400" r="80" stroke="black" stroke-width="2" fill="white" />
-
-            <!-- HEAD -->
-            <circle cx="285" cy="180" r="3" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="315" cy="180" r="3" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="285" cy="205" r="2" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="295" cy="207" r="2" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="303" cy="207" r="2" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="312" cy="205" r="2" stroke="black" stroke-width="2" fill="black" />
-
-            <!-- LITTLE CIRCLES 2-->
-            <circle cx="301" cy="250" r="3" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="301" cy="270" r="3" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="301" cy="290" r="3" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="301" cy="310" r="3" stroke="black" stroke-width="2" fill="black" />
-
-            <!-- LITTLE CIRCLES 3-->
-            <circle cx="301" cy="370" r="3" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="301" cy="390" r="3" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="301" cy="410" r="3" stroke="black" stroke-width="2" fill="black" />
-            <circle cx="301" cy="430" r="3" stroke="black" stroke-width="2" fill="black" />
-
-            </svg>
+        <h1 align="center" style="color: #0099ff; margin-right: 80px;text-decoration: underline;text-shadow: white -3px 0px 3px;text-transform: uppercase; font-size: 35px; letter-spacing: 4px;">TETRIS</h1>
+        <div class="colon">
+            
+            <div class="col">
+                <button class="btn"  onclick="rules()">HOW TO PLAY</button>
+                
+                <p id="e1">Press &larr; to move to the left.</p>
+                <p id="e2">Press &uarr; to rotate the tetrominoes.</p>
+                <p id="e3">Press &rarr; to move to the right.</p>
+                <p id="e4">Press &darr; to speed up.</p>
+            </div>
+            <div class="col">
+                <canvas id="tetris" width="200" height="400"></canvas>
+                <div class="score">
+                    Score : <div id="score">0</div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <svg width="500" height="500">
+                    <!-- BODY -->
+                    <circle cx="300" cy="190" r="40" stroke="black" stroke-width="2" fill="white" />
+                    <circle cx="300" cy="280" r="60" stroke="black" stroke-width="2" fill="white" />
+                    <circle cx="300" cy="400" r="80" stroke="black" stroke-width="2" fill="white" />
+                    <!-- HEAD -->
+                    <circle cx="285" cy="180" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="315" cy="180" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="285" cy="205" r="2" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="295" cy="207" r="2" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="303" cy="207" r="2" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="312" cy="205" r="2" stroke="black" stroke-width="2" fill="black" />
+                    <!-- LITTLE CIRCLES 2-->
+                    <circle cx="301" cy="250" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="301" cy="270" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="301" cy="290" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="301" cy="310" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <!-- LITTLE CIRCLES 3-->
+                    <circle cx="301" cy="370" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="301" cy="390" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="301" cy="410" r="3" stroke="black" stroke-width="2" fill="black" />
+                    <circle cx="301" cy="430" r="3" stroke="black" stroke-width="2" fill="black" />
+                </svg>
+            </div>
         </div>
-    </div>
-    <script src="js/snow.js"></script>   
-    <script src="js/tetrominoes.js"></script>
-    <script src="js/tetris.js"></script>
-
-
-</body>
+        <script src="js/snow.js"></script>
+        <script src="js/tetrominoes.js"></script>
+        <script src="js/tetris.js"></script>
+    </body>
 </html>
