@@ -634,7 +634,7 @@ width: 100%
   padding-right: 20px;
   padding-top: 0px;
   margin-top: 17px;
-  width: 1150px;
+  max-width: 1150px;
   /*margin-right: 20px;*/
   background-color:white;
 
@@ -680,7 +680,7 @@ width: 100%
   padding-left: 20px;
   padding-top: 0px;
   margin-top: 17px;
-  width: 1150px;
+  max-width: 1150px;
   background-color:white;
 }
 .customization h4{
@@ -716,14 +716,14 @@ width: 100%
   margin-right: 148px;
   margin-bottom: 80px;
   border: 5px solid #0099ff;
-  height: 380px;
+  min-height: 380px;
 }
 .premier div{
-  height:225px;
+  min-height:225px;
   padding-right: 20px;
   padding-top: 0px;
   margin-top: 17px;
-  width: 1150px;
+  max-width: 1150px;
   /*margin-right: 20px;*/
 
   background-color:white;

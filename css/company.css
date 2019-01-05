@@ -434,7 +434,7 @@ margin-top: 10px;
 letter-spacing: 2px;
 }
 .ul li{
-  style="text-align:center"
+  text-align:center;
   margin-left: auto;
   padding-top: 10px;
 }
@@ -442,12 +442,6 @@ letter-spacing: 2px;
 
 
 /*footer*/
-body, html
-{
-font-family: 'Titillium Web', sans-serif;
-padding: 0;
-margin: 0;
-}
 footer
 {
 background-color: #1a1a1a;
