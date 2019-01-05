@@ -8,6 +8,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/signup.css">
+
+		<script type="text/javascript" text="javascript">
+			
+			sessionStorage.setItem("email","dear costumer!");
+			alert("Hi"+" "+sessionStorage.email);
+
+		</script>
+
+
 	</head>
 	<body>
 		<header >
@@ -78,14 +87,17 @@
 				
 				<form id="registration">
 					<input type="email" name="email" placeholder="Email" id="button"><br><br>
-					<input type="passwrod" name="passwrod" placeholder="Passwrod" id="button" pattern=".{6,}" title="Password must contain at least 8 characters."><br><br>
+					<input type="password" name="password" placeholder="Password" id="button" pattern=".{6,}" title="Password must contain at least 8 characters."><br><br>
 					<label style="color: white; margin-right: 150px;">
 						<input type="checkbox" checked="checked" name="remember"> Remember me
 					</label><br><br>
-					<input type="submit" value="Log In" id="butto"><br><br>
+					<input type="submit" value="Log In" id="butto" onclick="myFunction()"><br><br>
 					
 					<p style="color: white;">Don't have an account? &nbsp;<a href="signup.html" id="log">Sign Up</a></p>
+
+					<p style="color: white;" id="emp"></p>
 				</form>
 			</div>
+
 		</body>
 	</html>
