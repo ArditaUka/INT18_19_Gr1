@@ -276,7 +276,261 @@ input[type="submit"] {
 }
 
 /*******************************************************************/
- .box1 {
+.diV1{
+width: 250px;
+height: 250px;
+background-color: grey;
+border: 1px solid black;
+margin-top: 20px;
+margin-left: 25px;
+}
+
+  .diV{
+  width: 250px;
+  max-height: 150px;
+  background-color: grey;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin: 25px;
+  margin-bottom: 40px;
+  -ms-transform: translate(10px,100px);
+  -webkit-transform: translate(10px,100px);
+  transform: translate(10px,100px);
+  /* position:absolute; */
+}
+
+
+  .divii {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border: 1px solid black;
+    margin-top: 100px;
+    padding:20px;
+    margin-left: 50px;
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+.diivi {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 1px solid black;
+  margin-top: 100px;
+  padding: 20px;
+  margin-left: 50px;
+  -ms-transform: scale(1.5,1);
+ -webkit-transform: scale(1.5,1);
+ transform: scale(1.5,1);
+}
+
+.div1{
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 1px solid black;
+  margin-top: 100px;
+  padding: 20px;
+  margin-left: 50px;
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+   transform: skewX(20deg);
+
+}
+.Div {
+	width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 1px solid black;
+  margin-top: 70px;
+  padding: 20px;
+  margin-left: 50px;
+
+  -webkit-transform: rotateY(150deg);
+  transform: rotateY(150deg);
+}
+
+.Div1 {
+	width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 1px solid black;
+  margin-top: 70px;
+  padding: 20px;
+  margin-left: 50px;
+
+  -webkit-transform: rotateX(150deg);
+  transform: rotateX(150deg);
+}
+.Div2 {
+    backface-visibility: visible;
+		display: block;
+		width: 200px;
+  	height: 200px;
+  	background-color: grey;
+  	border: 1px solid black;
+  	margin-top: 70px;
+  	padding: 20px;
+	  margin-left: 50px;
+    border: 1px solid #000000;
+    animation: mymove 3s infinite;
+    -moz-animation: mymove 3s infinite;
+    -moz-animation-timing-function: linear;
+    -webkit-animation: mymove 3s infinite;
+    -webkit-animation-timing-function: linear;}
+
+
+
+
+
+
+		.scene {
+		  width: 300px;
+		  height: 200px;
+		  border: 1px solid #CCC;
+		  margin: 80px;
+		  perspective: 400px;
+		}
+		.box {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translateZ(-50px);
+  transition: transform 1s;
+}
+
+.box.show-front  { transform: translateZ( -50px) rotateY(   0deg); }
+.box.show-back   { transform: translateZ( -50px) rotateY(-180deg); }
+.box.show-right  { transform: translateZ(-150px) rotateY( -90deg); }
+.box.show-left   { transform: translateZ(-150px) rotateY(  90deg); }
+.box.show-top    { transform: translateZ(-100px) rotateX( -90deg); }
+.box.show-bottom { transform: translateZ(-100px) rotateX(  90deg); }
+
+
+.box-face {
+  position: absolute;
+  border: 2px solid black;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.box-front,
+.box-back {
+  width: 300px;
+  height: 200px;
+  line-height: 200px;
+}
+
+.box-right,
+.box-left {
+  width: 100px;
+  height: 200px;
+  left: 100px;
+  line-height: 200px;
+}
+
+.box-top,
+.box-bottom {
+  width: 300px;
+  height: 100px;
+  top: 50px;
+  line-height: 100px;
+}
+
+.box-front  { background: hsla(  0, 100%, 50%, 0.7); }
+.box-right  { background: hsla( 60, 100%, 50%, 0.7); }
+.box-back   { background: hsla(120, 100%, 50%, 0.7); }
+.box-left   { background: hsla(180, 100%, 50%, 0.7); }
+.box-top    { background: hsla(240, 100%, 50%, 0.7); }
+.box-bottom { background: hsla(300, 100%, 50%, 0.7); }
+.box-front  { transform: rotateY(  0deg) translateZ( 50px); }
+.box-back   { transform: rotateY(180deg) translateZ( 50px); }
+
+.box-right  { transform: rotateY( 90deg) translateZ(150px); }
+.box-left   { transform: rotateY(-90deg) translateZ(150px); }
+
+.box-top    { transform: rotateX( 90deg) translateZ(100px); }
+.box-bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+.div3 {
+  width: 190px;
+  height: 190px;
+	margin: 30px;
+  padding-top: 10px;
+	padding-left: 10px;
+  background: grey;
+  position :relative;
+  -webkit-animation: Ex-move 3s infinite; /* Safari 4.0 - 8.0 */
+  animation: Ex-move 3s infinite;
+}
+
+@-webkit-keyframes Ex-move {
+  from {top: 0px;}
+  to {top: 50px;}
+}
+
+/* Standard syntax */
+@keyframes Ex-move {
+  from {top: 0px;}
+  to {top: 50px;}
+}
+
+
+.div4 {
+	width: 190px;
+  height: 190px;
+	margin: 30px;
+  padding-top: 10px;
+	padding-left: 10px;
+  background-color: grey;
+  position: relative;
+  -webkit-animation-name: Ex-animation;
+  -webkit-animation-duration: 20s;
+  animation-name: Ex-animation;
+  animation-duration: 20s;
+}
+
+
+@-webkit-keyframes Ex-animation {
+  0%   {background-color:blue; left:0px; top:0px;}
+  25%  {background-color:lightblue; left400px; top:0px;}
+  50%  {background-color:grey; left:400px; top:400px;}
+  75%  {background-color:lightgrey; left:0px; top:400px;}
+  100% {background-color:lightgreen; left:0px; top:0px;}
+}
+
+
+@keyframes Ex-animation {
+  0%   {background-color:blue; left:0px; top:0px;}
+  25%  {background-color:lightblue; left:400px; top:0px;}
+  50%  {background-color:grey; left:400px; top:400px;}
+  75%  {background-color:lightgrey; left:0px; top:400px;}
+  100% {background-color:lightgreen; left:0px; top:0px;}
+}
+
+  .div5 {
+  border: 2px solid;
+  padding: 20px;
+  width: 300px;
+  resize: auto;
+  overflow: auto;
+}
+
+.div6 {
+  margin: 20px;
+  border: 1px solid black;
+  background-color: lightblue;
+	width: 200px;
+	height: 200px;
+  outline: 4px solid lightblue;
+  outline-offset: 8px;
+}
+
+ /* .box1 {
   width: 350px;
   height: 150px;
   border: 2px solid lightblue;
@@ -494,4 +748,4 @@ letter-spacing: 2px;
 li
 {
   color: white;
-}
+} */
