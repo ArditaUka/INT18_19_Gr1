@@ -549,7 +549,7 @@ animation-timing-function: linear;
     
     
 }
-@-keyframes animacioni{
+@keyframes animacioni{
     0% {color:tomato; left:0px; top:0px;}
     25%{color:grey; left:200px; top:0px;}
     50%{color:yellow; left:400px; top:0px;}
